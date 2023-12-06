@@ -7,6 +7,63 @@
       url('fonts/ChicagoFLF.ttf') format('ttf');
   }
 
+@font-face {
+    font-family: 'Motter Tektura';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+      url('fonts/mottertektura.woff') format('woff'),
+      url('fonts/mottertektura.ttf') format('ttf');
+  }
+
+@font-face {
+    font-family: 'Apple Garamond';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+      url('fonts/AppleGaramond.woff') format('woff'),
+      url('fonts/AppleGaramond.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    font-style: bold;
+    font-weight: 400;
+    src: local(''),
+      url('fonts/AppleGaramond-Bold.woff') format('woff'),
+      url('fonts/AppleGaramond-Bold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    font-style: italic;
+    font-weight: 400;
+    src: local(''),
+      url('fonts/AppleGaramond-Italic.woff') format('woff'),
+      url('fonts/AppleGaramond-Italic.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Lucida Grande';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+      url('fonts/LucidaGrande.woff') format('woff'),
+      url('fonts/LucidaGrande.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'San Francisco';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+      url('fonts/SF-Pro-Display-Regular.woff') format('woff'),
+      url('fonts/SF-Pro-Display-Regular.otf') format('otf');
+}
+
+
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+
 :root {
     --text-light: 0, 0, 0;
     --background-light: 245, 239, 229;
@@ -38,16 +95,22 @@ html[data-theme="dark"] {
         --accent: var(--accent-dark);
 }
 
-body, #sidebar, .chapter, .chapbar, #deadspace{
-    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+body, #sidebar, .chapter, .blur, .metal, .leopard, .sierra, .bigsur,#deadspace{
     display: flex;
     color: rgba(var(--text));
+    overflow-x: hidden;
+    transition: color 1s;
+}
+
+body, #sidebar, #deadspace{
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body{
     background-color: rgba(var(--background));
     flex-direction: column;
     margin: 0;
+    transition: background-color 1s;
 }
 
 header{
@@ -56,40 +119,37 @@ header{
     position: fixed;
     border-radius: 50px;
     background: rgba(var(--background), 1);
-    box-shadow: 5px 3px 3px #DDDDDD33;
+    border: 3px outset rgb(var(--accent));
     z-index: 10;
+    transition: all 1s;
 }
 
-#sidebar, .chapbar{
+#sidebar{
     border: 3px hidden;
-    border-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
     position: fixed;
     overflow: hidden;
     flex-direction: column;
     top: 25vh;
-    left: -5px;
+    width: auto;
+    transform: translateX(-92%);
     height: 50%;
     box-shadow: 5px 3px 3px #DDDDDD33;
-}
-
-#sidebar{
     background: radial-gradient(circle at center, rgba(var(--primary), .8), rgba(var(--accent), 1) 100%);
-    width: 10px;
-    transition: all 0.5s ease;
     z-index: 10;
+    transition: background 1s;
+    transition: 0.5s;
 }
 
 #sidebar:hover {
-    width: auto;
+    transform: translateX(0%);
+    transition: 0.5s;
+    cursor: pointer;
 }
 
-#sidebar ul, .chapbar ul{
+#sidebar ul{
     flex-direction: column;
-}
-
-.chapbar{
-    background: radial-gradient(circle at center, rgba(var(--secondary), 1), rgba(var(--accent), 1) 100%);
-    width: 0px;
 }
 
 
@@ -108,13 +168,12 @@ img{
     width: 40px;
 }
 
+
 a:hover img{
     background-color: rgba(var(--accent), .3);
     border-radius: 10px;
-}
-
-a:hover{
     color: rgba(var(--background));
+    cursor: pointer;
 }
 
 
@@ -137,6 +196,18 @@ a:hover{
     padding: 5px;   
 }
 
+#mac{
+    font-family: 'Motter Tektura','Courier New', Courier, monospace;
+    background: -webkit-linear-gradient(right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722) white;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.quote{
+    text-align: center;
+}
+
 h1{
     font-size: 10vw;
 }
@@ -145,9 +216,7 @@ h1.zero{
     color: white;
 }
 
-h1.one{
-    color: black;
-}
+
 
 #deadspace{
     height: 45em;
@@ -164,10 +233,6 @@ h1.one{
     flex-direction: column;
 }
 
-.chapter.zero{
-    background-color: black;
-    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 
 #arrow{
     width: 1.5em;
@@ -175,43 +240,405 @@ h1.one{
     padding: 0;
 }
 
-.taskbar{
-    margin: 0;
-    margin-bottom: 50vh;
-    padding: 0;
-    width: 100%;
-}
-
-.chapter.one{
-    background-color: lightgray;
-    font-family: 'Chicago' ,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+.media.header{
+    padding: 3em 0 3em 0;
 }
 
 .txtcontent {
     padding: 20px;
+    margin-bottom: 50vh;
     font-size: 25px;
     width: 70%;
     flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
 }
+
+.media{
+    max-width: 60vw;
+    padding: 10px;
+    display: inline;
+}
+
+
+.txtcontent > .left{
+    float: left;
+    margin-right: 20px;
+    margin-left: 0;
+    max-width: 15vw;
+}
+
+.txtcontent > .right{
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+    max-width: 15vw;
+}
+
+.media.center{
+    max-width: 70vw;
+    max-height: 50vw;
+    min-width: 80%;
+    align-self: center;
+    display: inline-block;
+}
+
+.middle{
+    text-align: center;
+}
+
+.chapter.zero{
+    background-color: black;
+    font-family: 'Apple Garamond','Times New Roman',Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 
 .txtcontent.zero{
     background: black;
     color: white;
 }
 
+.media.zero{
+    border: 5px double white;
+    margin: 10px;
+}
+
+.media.header.zero{
+    border: none;
+    width: 10em;
+}
+
+.chapter.one, .chapter.five{
+    background-image:
+      linear-gradient(45deg, #9f9f9f 25%, #606060 25%), 
+      linear-gradient(135deg, #606060 25%, #9f9f9f 25%),
+      linear-gradient(45deg, #9f9f9f 75%, #606060 75%),
+      linear-gradient(135deg, #606060 75%, #9f9f9f 75%);
+    background-size:5px 5px;
+    background-position:0 0, 12.5px 0, 12.5px -12.5px, 0px 12.5px;
+    font-family: 'Chicago' ,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .txtcontent.one{
     background: white;
     color: black;
-    box-shadow: 10px 5px 5px black;
+    border: 2px solid black;
+    box-shadow: 10px 10px black;
     text-align: left;
 }
 
-footer{
-    width: 100%;
-    background: rgba(var(--secondary), 255);
-    height: 50px;
+
+.media.one{
+    padding: 0;
+    border: 2px solid black;
+    box-shadow: 10px 10px black;
 }
 
+h1.one, h1.two, h1.three, h1.four, h1.five, h1.six{
+    color: black;
+}
+
+h1.five, h1.six{
+    font-family: 'Apple Garamond','Chicago','Times New Roman', Times, serif;
+}
+
+h1.seven{
+    font-size: 5em;
+}
+
+.chapter.two, .chapter.three, .chapter.four{
+    background-image:
+      linear-gradient(45deg, black 25%, white 25%), 
+      linear-gradient(135deg, white 25%, black 25%),
+      linear-gradient(45deg, black 75%, white 75%),
+      linear-gradient(135deg, white 75%, black 75%);
+    background-size:5px 5px;
+    background-position:0 0, 12.5px 0, 12.5px -12.5px, 0px 12.5px;
+    font-family: 'Chicago' ,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.txtcontent.two, .txtcontent.three, .txtcontent.four, .txtcontent.five{
+    background: white;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 10px 10px black;
+    text-align: left;
+}
+
+
+.media.two, .media.three, .media.four, .media.five{
+    padding: 0;
+    border: 2px solid black;
+    box-shadow: 10px 10px black;
+}
+
+button{
+    border-radius: 5px;
+    display: inline;
+    padding: 5em;
+    background: white;
+    border: 1px solid black;
+    box-shadow: 0 0 3px black;
+}
+
+button a{
+    color: black;
+}
+
+button:hover{
+    background: lightgrey;
+}
+
+.chapter.six{
+    background-image: url("media/mac8wall.jpg");
+    background-attachment: fixed;
+    background-size: fill;
+    font-family: 'Chicago', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.txtcontent.six{
+    background: #dddddd;
+    color: black;
+    border: 5px outset #c7c7c7;
+    border-top-width: 40px;
+    border-top-style: solid;
+    box-shadow: 3px black;
+    text-align: left;
+    font-size: 25px;
+}
+
+.media.six{
+    padding: 0;
+    border: 5px inset #c7c7c7;
+    border-top-width: 40px;
+    box-shadow: 3px black;
+}
+
+.blur{
+    width: 70%;
+    padding: 40px 5px 5px 5px;
+    backdrop-filter: blur(3px);
+    background: repeating-linear-gradient(45deg, rgba(25,40,55,0.75) 35%, rgba(65,85,100,0.75) 40%, rgba(65,85,100,0.75) 42%, rgba(25,40,55,0.75) 50%, rgba(25,40,55,0.75) 55%, rgba(70,85,100,0.75) 60%, rgba(70,85,100,0.75) 75%, rgba(25,40,55,0.75) 90%); 
+    background-attachment: fixed;
+    margin: 0 0 40vh 0;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.blur > .media{
+    width: 100%;
+}
+
+.txtcontent .blur{
+    width: fit-content;
+    margin: 10px;
+}
+
+.chapter.seven{
+    background-image: url("media/100.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Lucida Grande','Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.txtcontent.seven, .txtcontent.gentwo{
+    background: white;
+    color: black;
+    border: 3px ridge lightgrey;
+    border-top-width: 20px;
+    border-top-style: solid;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 0 0 10px black;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 5em;
+}
+
+.media.seven, .media.gentwo{
+    padding: 0;
+    border: 3px ridge lightgrey;
+    box-shadow: 0 0 10px black;
+    color: black;
+    border-top-width: 20px;
+    border-top-style: solid;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.chapter.gentwo{
+    background-image: url(media/102.jpg);
+}
+
+.chapter.genthree{
+    background-image: url(media/103.jpg);
+}
+
+.chapter.genfour{
+    background-image: url(media/104.jpg);
+}
+
+.chapter.genfive{
+    background-image: url(media/105.jpg);
+    color: white;
+}
+
+.chapter.gensix{
+    background-image: url(media/106.jpg);
+    color: white;
+}
+
+.chapter.genseven{
+    background-image: url(media/107.jpg);
+    color: white;
+}
+
+.chapter.geneight{
+    background-image: url(media/108.jpg);
+    color: white;
+}
+
+.chapter.gennine{
+    background-image: url(media/109.jpg);
+    color: white;
+}
+
+.chapter.genten{
+    background-image: url(media/110.jpg);
+    font-family: 'Helvetica Neue','Lucida Grande','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.chapter.geneleven{
+    background-image: url(media/111.jpg);
+    font-family: 'San Francisco','Helvetica Neue','Lucida Grande','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.chapter.gentwelve{
+    background-image: url(media/112.jpg);
+    font-family: 'San Francisco','Helvetica Neue','Lucida Grande','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.chapter.genthirteen{
+    background-image: url(media/113.jpg);
+    font-family: 'San Francisco','Helvetica Neue','Lucida Grande','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.chapter.genfourteen{
+    background-image: url(media/114.jpg);
+    font-family: 'San Francisco','Helvetica Neue','Lucida Grande','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.chapter.genfifteen{
+    background-image: url(media/115.jpg);
+    font-family: 'San Francisco','Helvetica Neue','Lucida Grande','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.chapter.gensixteen{
+    background-image: url(media/116.png);
+    font-family: 'San Francisco','Helvetica Neue','Lucida Grande','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.chapter.genseventeen{
+    background-image: url(media/117.jpg);
+    font-family: 'San Francisco','Helvetica Neue','Lucida Grande','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.chapter.geneighteen{
+    background-image: url(media/118.jpg);
+    font-family: 'San Francisco','Helvetica Neue','Lucida Grande','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.chapter.gennineteen{
+    background-image: url(media/119.jpg);
+    font-family: 'San Francisco','Helvetica Neue','Lucida Grande','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.txtcontent.seven.genthree, .txtcontent.seven.genfour, .txtcontent.seven.genfive, .txtcontent.seven.gensix{
+    background: white;
+    border: none;
+    box-shadow: none;
+    color: black;
+    text-align: left;
+    border-radius: 3px;
+    width: max-content;
+    margin: 0;
+    font-size: 18px;
+}
+
+.metal > .media, .leopard > .media, .sierra > .media, .bigsur > .media{
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+.txtcontent .metal, .txtcontent .leopard, .txtcontent .sierra, .txtcontent .bigsur{
+    width: fit-content;
+    margin: 10px;
+    border: 0;
+}
+
+.metal{
+    width: 70vw;
+    padding: 30px 5px 5px 5px;
+    background-attachment: fixed;
+    background-image: -webkit-repeating-linear-gradient(top, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0)   6%, hsla(0,0%,100%, .1) 7.5%),
+    -webkit-repeating-linear-gradient(top, hsla(0,0%,  0%,0) 0%, hsla(0,0%,  0%,0)   4%, hsla(0,0%,  0%,.03) 4.5%),
+    -webkit-repeating-linear-gradient(top, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0) 1.2%, hsla(0,0%,100%,.15) 2.2%),
+    
+    linear-gradient(180deg, #9c9c9c  0%, 
+    #c1c1c1 47%,
+    #c7c7c7 50%,
+    #bcbcbc 53%,
+    #9c9c9c 100%);
+    box-shadow: 0 0 10px black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 5em;
+}
+
+.leopard{
+        width: 70vw;
+        padding: 30px 5px 5px 5px;
+        background-image:  linear-gradient(white, grey);
+        background-attachment: fixed;
+        box-shadow: 0 0 10px black;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        margin-bottom: 5em;
+}
+
+.sierra{
+        width: 70vw;
+        padding: 30px 5px 5px 5px;
+        background-image:  linear-gradient(white, lightgrey);
+        background-attachment: fixed;
+        box-shadow: 0 0 10px black;
+        border-radius: 5px;
+        margin-bottom: 5em;
+}
+
+.bigsur{
+        width: 70vw;
+        padding: 30px 5px 5px 5px;
+        background:  #dddddd;
+        box-shadow: 0 0 10px black;
+        border-radius: 5px;
+        margin-bottom: 5em;
+}
 
 ::-webkit-scrollbar {
     display: none;
@@ -219,11 +646,79 @@ footer{
 
 .hidden{
     opacity: 0;
-    transition: all 2s;
+    transition: all 1s;
     transform: translateY(-20%);
 }
 
 .show{
     opacity: 1;
     transform: translateY(0);
+}
+
+.media.hidden.left{
+    opacity: 0;
+    transition: all 1s;
+    transform: translateX(-20%);
+}
+
+.media.hidden.right{
+    opacity: 0;
+    transition: all 1s;
+    transform: translateX(+20%);
+}
+
+.media.show, .media.show.left, .media.show.right{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.txtcontent > .media:hover, .txtcontent > .blur:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.popup.blur{
+    margin: 0;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.popup span{
+    position: absolute;
+    top: 20px;
+    right : 20px;
+    padding-bottom: .3em;
+    border-radius: 20px;
+    background: rgba(var(--accent), .8);
+    color: rgb(var(--text));
+    font-size: 3em;
+    font-weight: bolder;
+    transition: .2s;
+    z-index: 101;
+}
+
+.popup span:hover{
+    cursor: pointer;
+    background: rgba(var(--primary), .8);
+}
+
+.popup img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+    min-width: 40%;
+    min-height: 40%;
+    object-fit: contain;
 }

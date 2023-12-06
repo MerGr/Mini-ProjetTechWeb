@@ -21,10 +21,10 @@
 		</header>
 		<nav id="sidebar">
 			<ul>
-				<li class="navoption win"><a href="../win/win.html"><img src="win_white.png" alt="Windows Logo"></a></li>
-				<li class="navoption mac"><a href="macos.html"><img src="macos_light.png" alt="MacOS Logo"></a></li>
+				<li class="navoption win"><a href=""><img src="win_white.png" alt="Windows Logo"></a></li>
+				<li class="navoption mac"><a href="../macos/macos.html"><img src="macos_light.png" alt="MacOS Logo"></a></li>
 				<li class="navoption"><a href="../linux/linux.html"><img src="linux.png" alt="Linux Logo"></a></li>
-				<li class="navoption others"><a href="other/other.html"><img src="amiga2.png" alt="AmigaOS Logo"></a></li>
+				<li class="navoption others"><a href="../other/other.html"><img src="amiga2.png" alt="AmigaOS Logo"></a></li>
 				<li><button id="themebttn" onclick="toggleTheme()"></button></li>
 			</ul>
 		</nav>
@@ -35,7 +35,7 @@
 
 		<div class="chapter zero">
 			<h1 class="zero hidden">It&rsquo;s 1980,<br></h1>
-			<div class="txtcontent zero hidden">
+			<div class="txtcontent hidden zero hidden">
 				<p>a new consumer market is emerging, what was once only used by academics will now swarm to the lives of millions of people, changing the way they work, think and interact.</p>
 
 				<p>The age of the microcomputer is here.</p>
@@ -48,15 +48,16 @@
 					What&rsquo;s hardware&rsquo;s worth if there&rsquo;s no software?<br>
 				</p>
 				
-				<img src="media/msfirstphotop.webp" alt="Paul Allen (left), Bill Gates (right)" class="media left zero" loading="lazy"/>
+				<img src="media/msfirstphotop.webp" alt="Paul Allen (left), Bill Gates (right)" class="media hidden left zero" loading="lazy"/>
 				<p>Microsoft, founded in 1975 by Paul Allen and a very young Bill Gates, found success selling their own BASIC Language interpreters for the Altair 8800, when IBM came knocking on their door, Gates cleared his schedule immediately and signed a contract with IBM to provide a suite of software, and an operating system. Microsoft do not have an Operating System.</p>
 				<p><br>Bill&rsquo;s business ingenuity secured the non-exclusive full rights to Seattle Computers 86-DOS OS, which became the MS-DOS powering the now called IBM Personal Computer product line.</p>
-				<h2><br>The PC.<br></h2>
-				<img src="media/ibm-pc-5150-print-ad.jpg" alt="IBM PC 5150 Ad" class="media center zero" loading="lazy"/>
-				<img src="media/5150MB.jpg" alt="IBM PC 5150 motherboard" class="media right zero" loading="lazy"/>
-				<p>Released in 1981, the Intel 8088-powered PC was a smashing success launching both IBM and Microsoft to market dominance. Efforts to reverse-engineer the closed IBM BIOS let to the explosion of &ldquo;IBM PC-Compatibles&rdquo;, which Microsoft capitalized on with its non-exclusive agreement with IBM to sell their software to those devices as well. Tightening their grip on the software world.</p>
+				<h2 class="middle"><br>The PC.<br></h2>
+				<img src="media/ibm-pc-5150-print-ad.jpg" alt="IBM PC 5150 Ad" class="media hidden center zero" loading="lazy"/>
 				
-				<img src="media/welcome ibm.png" alt="Apple's letter to IBM" class="media left zero" loading="lazy"/>
+				<p>Released in 1981, the Intel 8088-powered PC was a smashing success launching both IBM and Microsoft to market dominance. Efforts to reverse-engineer the closed IBM BIOS let to the explosion of &ldquo;IBM PC-Compatibles&rdquo;, which Microsoft capitalized on with its non-exclusive agreement with IBM to sell their software to those devices as well. Tightening their grip on the software world.</p>
+				<img src="media/5150MB.jpg" alt="IBM PC 5150 motherboard" class="media hidden right zero" loading="lazy"/>
+
+				<img src="media/welcome ibm.png" alt="Apple's letter to IBM" class="media hidden left zero" loading="lazy"/>
 				<p>In response, Apple sought to reclaim their position as a major player in the microcomputer market with releasing the Apple Lisa in 1982, featuring a Graphical User Interface. It tanked, the limited software library and high price was, incompatible with the market&rsquo;s demands.<br>
 					But by 1984, Apple introduced, The Macintosh, a more financially accessible microcomputer that introduced a very intuitive Graphical User Interface and it&rsquo;s never seen before human interfacing device, The Mouse.<br>
 				</p>
@@ -69,20 +70,20 @@
 				<br>
 				<br>
 				<br>
-				<p>Microsoft had to make their own response, and in 1985. They did, in the form of...</p>
+				<p class="middle">Microsoft had to make their own response, and in 1985. They did, in the form of...</p>
 			</div>
 		</div>
 
 		<div class="chapter one">
-			<img src="media/winlogo80s.svg" class="media header" loading="lazy"/>
-			<div class="txtcontent one hidden">
+			<img src="media/winlogo80s.svg" class="media hidden header" loading="lazy"/>
+			<div class="txtcontent hidden one hidden">
 				<p>Released on November 20, 1985, Microsoft Windows 1.0 represented a significant departure from the command-line interfaces of its time. It was designed to provide a graphical user interface (GUI) for MS-DOS, making personal computing more accessible and user-friendly.</p>
 				<p>Key features of Windows 1.0 included a tiled windowing system, which allowed users to multitask by running multiple applications simultaneously. Users could resize, minimize, and maximize windows, a departure from the static and text-based interfaces that were prevalent in earlier computing environments.</p>
 
 				<p>The graphical nature of Windows 1.0 made it easier for users to interact with their computers. The operating system included several built-in applications, such as MS-DOS file management, Paint, Windows Write, and the Notepad. These applications introduced users to the concept of point-and-click navigation.<br>
 				</p>
 
-				<img src="media/win1ad.jpg" class="media right one" loading="lazy"/>
+				<img src="media/win1ad.jpg" class="media hidden right one" loading="lazy"/>
 
 				<p>
 					However, the hardware requirements were steep, 256 Kilobytes, two double-sided floppy drives, and a graphics adapter. Additionally, software support was initially sparse, and compatibility issues with existing MS-DOS applications was too big a sacrifice for some users.</p>
@@ -98,7 +99,7 @@
 				
 				<p>Windows 2.0 represented a significant advancement over its predecessor. One of the most notable improvements was the introduction of overlapping windows, a feature that allowed users to have multiple windows open on the screen simultaneously, enhancing multitasking capabilities. This release also brought about the concept of desktop icons, providing users with a more intuitive way to launch applications.</p>
 
-				<img src="media/excel2.png" class="media right one" loading="lazy"/>
+				<img src="media/excel2.png" class="media hidden left one" loading="lazy"/>
 
 				<p>Microsoft Excel, the first version of the now-famous spreadsheet software, made its debut with Windows 2.0. This integration of Microsoft Office applications marked the beginning of Microsoft's strategy to bundle productivity software with the Windows operating system, solidifying itself as the industry standard for office software.</p>
 
@@ -118,17 +119,20 @@
 		</div>
 
 		<div class="chapter two">
-			<img src="media/win90.svg" class="media header" loading="lazy"/>
+			<img src="media/win90.svg" class="media hidden header" loading="lazy"/>
 			
-			<div class="txtcontent two">
+			<div class="txtcontent hidden two">
 				<h3>Microsoft Windows 3.0 and 3.1</h3>
-				<video class="media center two" loading="lazy" controls>
+				<video class="media hidden center two" loading="lazy" controls>
 					<source src="media/win31_1.mp4" type="video/mp4"/>
 					Your browser does not support videos!
 				</video>
+
+				<img src="media/win3.1splash.png" class="media hidden right two" loading="lazy"/>
+
 				<p>As Microsoft forged ahead with the development of Windows 3.0, there was a notable internal shift in the company's strategy. Bill Gates recognized the potential of a graphical user interface and redirected Microsoft's efforts from OS/2 to Windows. This strategic pivot highlighted Gates' foresight and played a pivotal role in establishing Windows as the company's flagship product.</p>
 				<p>The development of Windows 3.0 was not without its challenges. Microsoft faced skepticism both within the company and from external observers. The graphical user interface was still a relatively new concept, and some doubted its widespread appeal. However, Microsoft invested heavily in marketing, emphasizing the advantages of the new operating system. This strategic marketing effort played a crucial role in shaping public perception and driving anticipation for Windows 3.0.</p>
-				<video class="media center two" loading="lazy" controls>
+				<video class="media hidden left two" loading="lazy" controls>
 					<source src="media/win31_2.mp4" type="video/mp4"/>
 					Your browser does not support videos!
 				</video>
@@ -143,38 +147,37 @@
 
 				<p>Externally, the microcomputer market was dynamic. In 1992, Windows 3.1 was released at a time when personal computing was transitioning from being a niche interest to a mainstream phenomenon. The business world was increasingly integrating computers into its operations, and more households were adopting personal computers for various tasks, from productivity to gaming.</p>
 
-				<img src="media/doom.jpg" class="media right two" loading="lazy"/>
-				<img src="media/Windows_3.11_workspace.png" class="media left two" loading="lazy"/>
+				<img src="media/doom.jpg" class="media hidden right two" loading="lazy"/>
+				<img src="media/Windows_3.11_workspace.png" class="media hidden left two" loading="lazy"/>
 
 				<p>Windows 3.1, with its enhanced features, improved performance, and expanded hardware compatibility, became a blockbuster success. It sold millions of copies and significantly contributed to Microsoft's revenue, firmly establishing Windows as the dominant platform in the personal computer market.</p>
 
 				<p>As Microsoft solidified its position, the company's influence extended beyond software. Partnerships with hardware manufacturers and aggressive marketing strategies further fuelled the adoption of Windows. The microcomputer market was becoming synonymous with Microsoft, and its Operating System was not just software, but a cultural and technological phenomenon.</p>
-
 				<p>The era of Windows 3.0 and 3.1 was marked by strategic shifts at Microsoft, intensified competition, and a rapidly growing microcomputer market. Its success during this time not only shaped the trajectory of the Redmond company but also played a foundational role in defining the personal computing experience for millions of users worldwide. The stage was set for the paradigm-shifting release of the next major version, which would further propel it to unprecedented heights. <br>
 				</p>
 
-				<img src="media/win3.1splash.png" class="media right two" loading="lazy"/>
+				
 
-				<h3>Set to conquer another frontier, with any means necessary.<br><br></h3>
+				<h3 class="middle">Set to conquer another frontier, by any means necessary.<br><br></h3>
 			</div>
 		</div>
 
 		<div class="chapter three">
-			<img src="media/win95.svg" class="media header" loading="lazy"/>
+			<img src="media/win95.svg" class="media hidden header" loading="lazy"/>
 			
-			<div class="txtcontent three">
+			<div class="txtcontent hidden three">
 				<h2>Microsoft Windows 95</h2>
 
 				<p>Windows 95, released on August 24, 1995, marked a watershed moment in the history of personal computing. It was a groundbreaking release that introduced several transformative features and fundamentally changed the user experience of personal computers.</p>
 
-				<video class="media center three" loading="lazy" controls>
+				<video class="media hidden center three" loading="lazy" controls>
 					<source src="media/win95_1.mp4" type="video/mp4"/>
 					Your browser does not support videos!
 				</video>
 
 				<p>Windows 95 introduced the iconic Start Menu, providing users with a centralized location to access programs, documents, and system settings. The Taskbar, a persistent bar at the bottom of the screen, allowed for easy navigation between open applications and provided quick access to the Start Menu.</p>
 
-				<img src="media/Windows_95_at_first_run.png" class="media left three" loading="lazy"/>
+				<img src="media/Windows_95_at_first_run.png" class="media hidden left three" loading="lazy"/>
 
 				<p>Windows 95 heralded widespread support for Plug and Play technology, making it significantly easier for users to install and configure hardware devices. This streamlined the process of adding peripherals like printers, scanners, and external drives to a computer.</p>
 
@@ -186,18 +189,19 @@
 
 				<p>While not bundled on release, Microsoft introduced Internet Explorer following the pressure made by the emerging Netscape Navigator. This move was indicative of the growing importance of the internet and set the stage for Microsoft's subsequent dominance in the web browser market.</p>
 
-				<p>The operating system also included built-in support for multimedia features such as CD-ROM drives, sound cards, and video playback. It also introduced DirectX, a collection of APIs (that is, Application Programming Interfaces) designed to handle multimedia tasks, particularly gaming. DirectX played a crucial role in standardizing game development on Windows, leading to the platform's dominance in the gaming industry. With Microsoft using its power and wealth to fund and partner with many studios, it made sure Windows, is the only platform for gaming.</p>
-
-				<video class="media center three" loading="lazy" controls>
+				<video class="media hidden right three" loading="lazy" controls>
 					<source src="media/win95_2.mp4" type="video/mp4"/>
 					Your browser does not support videos!
 				</video>
+
+				<p>The operating system also included built-in support for multimedia features such as CD-ROM drives, sound cards, and video playback. It also introduced DirectX, a collection of APIs (that is, Application Programming Interfaces) designed to handle multimedia tasks, particularly gaming. DirectX played a crucial role in standardizing game development on Windows, leading to the platform's dominance in the gaming industry. With Microsoft using its power and wealth to fund and partner with many studios, it made sure Windows, is the only platform for gaming.</p>
+
 
 				<p>The launch of Windows 95 was a highly anticipated event, accompanied by a massive marketing campaign. Microsoft invested heavily in promotion, featuring a globally televised launch event and the iconic &quot;Start Me Up&quot; commercial featuring the Rolling Stones' song. The anticipation and hype surrounding Windows 95 generated immense excitement in the tech industry and among consumers.</p>
 
 				<p>Windows 95 was a commercial juggernaut. Within just four days of its release, Microsoft sold over seven million copies. This success was unprecedented, and it significantly outpaced sales of any previous operating system. To put this into perspective, it even outperformed the highly popular video game Doom, which had set records in the gaming industry.</p>
 
-				<iframe width="685" height="514" src="https://www.youtube.com/embed/ZBbvmORcgSo" title="The Computer Chronicles - Windows 95 (1995)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="media center three"></iframe>
+				<iframe width="685" height="514" src="https://www.youtube.com/embed/ZBbvmORcgSo" title="The Computer Chronicles - Windows 95 (1995)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="media hidden center three"></iframe>
 
 				<p>Windows became THE operating system for the PC. And the tech giant became terrifyingly&#8230;unstoppable.<br>
 					Microsoft has fallen into legal scrutiny in the 90&rsquo;s. With the U.S. Department of Justice (DOJ) investigating the giant for antitrust violations, with its controversial EEE strategy (Embrace. Extend. Extinguish). This investigation would lead to a landmark antitrust case against Microsoft in the late 1990s.<br>
@@ -211,8 +215,8 @@
 		</div>
 
 		<div class="chapter four">
-			<img src="media/win98.svg" class="media header" loading="lazy"/>
-			<div class="txtcontent four">
+			<img src="media/win98.svg" class="media hidden header" loading="lazy"/>
+			<div class="txtcontent hidden four">
 				<h2>Microsoft Windows 98</h2>
 
 				<p>Windows 98, released on June 25, 1998, built upon the success of Windows 95, addressing some of its predecessor's issues while introducing new features. One key focus was improving system stability and performance. The Plug and Play system received enhancements, simplifying the installation and configuration of hardware devices. This not only contributed to a more user-friendly experience but also increased the overall reliability of the operating system.</p>
@@ -222,7 +226,7 @@
 				<p>The Device Manager was introduced, providing users with a centralized interface to view and manage installed hardware devices. This streamlined the process of troubleshooting and maintaining the various components of a computer system. Additionally, the System File Checker (SFC) tool allowed users to scan and restore corrupted system files, contributing to a more robust and reliable operating system.<br>
 				</p>
 
-				<iframe width="685" height="514" src="https://www.youtube.com/embed/N3s0_yf2mS4" title="The Computer Chronicles - Windows 98 (1998)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="media right four"></iframe>
+				<iframe width="685" height="514" src="https://www.youtube.com/embed/N3s0_yf2mS4" title="The Computer Chronicles - Windows 98 (1998)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="media hidden right four"></iframe>
 
 				<p>Despite these improvements, Windows 98 was not without its challenges. It faced criticism for certain stability issues and compatibility issues with some hardware and software. The operating system was positioned as more of an evolutionary upgrade, lacking the groundbreaking impact of its predecessor, Windows 95.<br>
 				Windows 98 Second Edition (98SE), released in 1999, was an updated version that aimed to address some of the criticisms and further enhance the user experience. Notable improvements included enhanced support for networking and internet connectivity. Internet Connection Sharing (ICS) was introduced, allowing users to share a single internet connection among multiple computers in a home or office network. This feature was particularly beneficial as home networking started to gain traction.</p>
@@ -235,7 +239,7 @@
 				
 				<p>This period also witnessed the prominence of the &quot;Embrace, Extend, Extinguish&quot; (EEE) strategy, an internal 3-part tactic; Welcoming the emerging competitor and offering aid in development and </p>
 				
-				<video class="media left four" loading="lazy" controls>
+				<video class="media hidden left four" loading="lazy" controls>
 					<source src="media/win98_1.mp4" type="video/mp4"/>
 					Your browser does not support videos!
 				</video>
@@ -250,7 +254,7 @@
 				The primary focus was on Microsoft's bundling of Internet Explorer with Windows, which was seen as an attempt to undermine competition in the web browser market.<br>
 				</p>
 
-				<video class="media left four" loading="lazy" controls>
+				<video class="media hidden left four" loading="lazy" controls>
 					<source src="media/win98_2.mp4" type="video/mp4"/>
 					Your browser does not support videos!
 				</video>
@@ -278,20 +282,20 @@
 		</div>
 
 		<div class="chapter five">
-			<img src="media/winxp.svg" class="media header" loading="lazy"/>
-			<div class="txtcontent five">
+			<img src="media/winxp.svg" class="media hidden header" loading="lazy"/>
+			<div class="txtcontent hidden five">
 				<h2>Microsoft Windows XP</h2>
 				<p>Released on October 25, 2001, Windows XP (codenamed &quot;Whistler&quot;) represented a significant evolution in Microsoft's operating system strategy. Merging the consumer-oriented Windows 9x series with the more robust Windows NT architecture, XP aimed to offer a stable and versatile platform. Key features included a refreshed graphical user interface (Luna), improved system stability built on the Windows NT/2000 kernel, enhanced networking capabilities, backward compatibility with Windows 9x applications, and security features like a built-in firewall and automatic updates.</p>
 
 				<p>Microsoft invested heavily in marketing Windows XP with the &quot;Yes You Can&quot; campaign, emphasizing its user-friendly and versatile nature. Released in multiple editions, including Home and Professional, Windows XP became one of the most widely adopted versions of Windows. The marketing efforts, combined with positive reception of the new features, contributed to its success.<br>
 				</p>
 
-				<video class="media right five" loading="lazy" controls>
+				<video class="media hidden right five" loading="lazy" controls>
 					<source src="media/winxp_1.mp4" type="video/mp4"/>
 					Your browser does not support videos!
 				</video>
 
-				<img src="media/Windows_XP_Luna.png" class="media left five" loading="lazy"/>
+				<img src="media/Windows_XP_Luna.png" class="media hidden left five" loading="lazy"/>
 
 				<p>Windows XP had a profound impact on the computing landscape. Its stability and improved user experience made it a favorite among both consumers and businesses. DirectX 9 solidified Windows in computer graphics. The widespread adoption of Windows XP led to its enduring legacy, and it continued to be a dominant operating system for an extended period.</p>
 
@@ -299,13 +303,13 @@
 				Throughout its lifecycle, Windows XP received several updates and service packs. Service Pack 1 (SP1) and Service Pack 2 (SP2) were particularly notable, introducing major security enhancements and features like Windows Firewall. These updates aimed to address vulnerabilities, improve system performance, and enhance overall functionality.<br>
 				</p>
 
-				<img src="media/winxptimeline.png" class="media center five" loading="lazy"/>
+				<img src="media/winxptimeline.png" class="media hidden center five" loading="lazy"/>
 
 				<p>
 					Despite its success, Windows XP faced challenges as it continued to be widely used even after Microsoft officially ended mainstream support in 2009 and extended support in 2014. This prolonged use posed security risks, as Microsoft ceased to provide regular security updates. The end of life for Windows XP brought attention to the importance of transitioning to more secure and supported operating systems.<br>
 				</p>
 
-				<button type="button"><a href="https://xp-js.glitch.me/" target="_blank">Try Windows XP!</a></button>
+				<button type="button" class="media hidden right"><a href="https://xp-js.glitch.me/" target="_blank">Try Windows XP!</a></button>
 
 				<p>The reluctance of some users and organizations to upgrade from Windows XP became evident during the WannaCry ransomware attack in May 2017. Exploiting vulnerabilities in unpatched systems, the attack affected numerous computers worldwide. This incident highlighted the security risks associated with using outdated software and the imperative of keeping operating systems up-to-date. Microsoft responded by releasing emergency patches for unsupported versions, including Windows XP, underscoring the severity of the situation and the potential consequences of delayed upgrades.</p>
 
@@ -316,16 +320,16 @@
 				<p>One of the significant shifts in Longhorn's development was the introduction of the WinFS (Windows Future Storage) file system, which was designed to provide advanced searching and organization capabilities. However, as development progressed, challenges arose, and Microsoft eventually decided to remove WinFS from the Longhorn project.<br>
 				</p>
 
-				<img src="media/longhorn.png" class="media right five" loading="lazy"/>
+				<img src="media/longhorn.png" class="media hidden right five" loading="lazy"/>
 
 				<p>The extended development timeline and feature adjustments led to anticipation and speculation in the tech community. As the project continued, Microsoft rebranded it as Windows Vista during the Professional Developers Conference in 2005.</p>
 			</div>
 		</div>
 
 		<div class="chapter six">
-			<img src="media/vista.svg" class="media header" loading="lazy"/>
+			<img src="media/vista.svg" class="media hidden header" loading="lazy"/>
 			<div class="blur">
-				<div class="txtcontent six">
+				<div class="txtcontent hidden six">
 					<h2>Microsoft Windows Vista</h2>
 					<p>Windows Vista was officially released to businesses on November 30, 2006, and for consumers on January 30, 2007. It aimed to deliver a more secure, visually appealing, and feature-rich experience compared to its predecessor, Windows XP. Key features included:</p>
 
@@ -334,7 +338,7 @@
 					Featuring desktop gadgets, the Sidebar provided users with quick access to information such as weather, news, and system resources.<br></p>
 					
 					<div class="blur right">
-						<img src="media/Windows_Vista.png" class="media right six" loading="lazy"/>
+						<img src="media/Windows_Vista.png" class="media hidden right six" loading="lazy"/>
 					</div>
 
 					<p>Vista also included a built-in anti-spyware tool, Windows Defender, to enhance security against malicious software.<br>
@@ -355,14 +359,14 @@
 		</div>
 
 		<div class="chapter seven">
-			<img src="media/win7.svg" class="media header" loading="lazy"/>
+			<img src="media/win7.svg" class="media hidden header" loading="lazy"/>
 			<div class="blur">
-				<div class="txtcontent seven">
+				<div class="txtcontent hidden seven">
 					<h2>Microsoft Windows 7</h2>
 					<p>Released on October 22, 2009, Windows 7 represented a significant departure from its predecessor, Windows Vista. Microsoft aimed to address the criticisms and challenges faced by Vista, focusing on enhancing performance, compatibility, and user experience.</p>
 
 					<div class="blur right">
-						<img src="media/Windows_7_SP1.png" class="media right seven" loading="lazy"/>
+						<img src="media/Windows_7_SP1.png" class="media hidden right seven" loading="lazy"/>
 					</div>
 
 					<p>The taskbar underwent a redesign, introducing features like Jump Lists and improved taskbar previews. The Start Menu received a more streamlined and user-friendly design.</p>
@@ -389,15 +393,15 @@
 		</div>
 
 		<div class="chapter eight">
-			<img src="media/win8.svg" class="media header" loading="lazy"/>
+			<img src="media/win8.svg" class="media hidden header" loading="lazy"/>
 			<div class="blur eight">
-				<div class="txtcontent eight">
+				<div class="txtcontent hidden eight">
 					<p>Released on October 26, 2012, Windows 8 represented a significant departure from traditional Windows interfaces. Microsoft aimed to create a unified operating system for both traditional desktops and touch-centric devices like tablets.<br>
 					Windows 8 introduced the Microsoft Metro UI Design Language which focused on typography and simplified icons, absence of clutter, increased content to chrome ratio (&quot;content before chrome&quot;), and basic geometric shapes.<br>
 					</p>
 
 					<div class="blur eight right">
-						<img src="media/metro.png" class="media right eight" loading="lazy"/>
+						<img src="media/metro.png" class="media hidden right eight" loading="lazy"/>
 					</div>
 
 					<p>Windows 8 introduced the Start Screen, a tile-based interface designed for touch input. Live Tiles provided dynamic updates for apps directly on the Start Screen. A side menu called the Charms Bar provided quick access to essential functions like search, share, and settings.<br>
@@ -407,7 +411,7 @@
 					</p>
 
 					<div class="blur eight left">
-						<img src="media/win8store.jpg" class="media left eight" loading="lazy"/>
+						<img src="media/win8store.jpg" class="media hidden left eight" loading="lazy"/>
 					</div>
 
 					<p>The radical departure from the familiar Start Menu and the emphasis on touch input led to a generally negative reception. Traditional desktop users found the interface changes challenging, especially without a Start Menu. The coexistence of the new Start Screen with the classic Desktop mode created a somewhat disjointed user experience.</p>
@@ -428,9 +432,9 @@
 		</div>
 
 		<div class="chapter nine">
-			<img src="media/win10.svg" class="media header" loading="lazy"/>
+			<img src="media/win10.svg" class="media hidden header" loading="lazy"/>
 			<div class="blur nine">
-				<div class="txtcontent nine">
+				<div class="txtcontent hidden nine">
 					<h2>Microsoft Windows 10</h2>
 					<h4>Special Feature ! Try to switch between Light and Dark Mode !</h4>
 					<p>Windows 10, released on July 29, 2015, marked a significant shift in Microsoft's approach. It aimed to create a unified operating system across various devices, including traditional desktops, laptops, tablets, and even smartphones. Windows 10 was designed to address the criticisms of its predecessor, Windows 8, while introducing new features and improvements.</p>
@@ -439,7 +443,7 @@
 					</p>
 
 					<div class="blur right nine">
-						<img src="media/10start.png" class="media right nine" loading="lazy"/>
+						<img src="media/10start.png" class="media hidden right nine" loading="lazy"/>
 					</div>
 
 					<p>Microsoft also introduced The Universal Windows Apps that could run across various Windows 10 devices, fostering a more consistent experience and minimal development time in porting compared to regular applications.<br>
@@ -456,14 +460,14 @@
 
 		<div class="chapter ten">
 			<div class="blur header ten">
-				<img src="media/win11.svg" class="media header" loading="lazy"/>
+				<img src="media/win11.svg" class="media hidden header" loading="lazy"/>
 			</div>
 			<div class="blur ten">
-				<div class="txtcontent ten">
+				<div class="txtcontent hidden ten">
 					<h2>Microsoft Windows 10X and its lead up to 11</h2>
 
 					<div class="blur left ten">
-						<img src="media/neo.webp" class="media left ten" loading="lazy"/>
+						<img src="media/neo.webp" class="media hidden left ten" loading="lazy"/>
 					</div>
 
 					<p>Initially announced in 2019, Windows 10X was designed to provide a specialized experience for dual-screen devices, set to debut to the now-cancelled Surface Neo, with a particular focus on flexibility and adaptability. The development of Windows 10X was part of Microsoft's broader initiative to address the evolving landscape of device form factors.</p>
@@ -475,7 +479,7 @@
 					</p>
 
 					<div class="blur ten">
-						<img src="media/11start.png" class="media center ten" loading="lazy"/>
+						<img src="media/11start.png" class="media hidden center ten" loading="lazy"/>
 					</div>
 
 					<p>Announced in June 2021, Windows 11 represents a significant evolution in the Windows operating system. It builds upon the foundation laid by Windows 10 while introducing a refreshed user interface based on the Fluent Design Language, new features, and improvements in performance and security.<br>
@@ -498,7 +502,8 @@
 
 		<div class="popup blur">
 			<span>&times;</span>
-			<img src="" alt=""/>
+			<img id="popup-img" src="" alt=""/>
 		</div>
+
 	</body>
 </html>

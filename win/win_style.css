@@ -58,12 +58,14 @@ body, #sidebar, .chapter, .blur, #deadspace{
     display: flex;
     color: rgba(var(--text));
     overflow-x: hidden;
+    transition: color 1s;
 }
 
 body{
     background-color: rgba(var(--background));
     flex-direction: column;
     margin: 0;
+    transition: background-color 1s;
 }
 
 header{
@@ -74,6 +76,7 @@ header{
     background: rgba(var(--background), 1);
     border: 3px outset rgb(var(--accent));
     z-index: 10;
+    transition: all 1s;
 }
 
 #sidebar{
@@ -90,6 +93,7 @@ header{
     box-shadow: 5px 3px 3px #DDDDDD33;
     background: radial-gradient(circle at center, rgba(var(--primary), .8), rgba(var(--accent), 1) 100%);
     z-index: 10;
+    transition: background 1s;
     transition: 0.5s;
 }
 
@@ -193,6 +197,7 @@ h1.one{
     flex-direction: column;
     text-align: left;
     justify-content: center;
+    align-items: center;
 }
 
 .media{
@@ -214,10 +219,16 @@ h1.one{
     max-width: 25vw;
 }
 
-.txtcontent > .center{
-    margin: center;
+.media.center{
+    max-width: 70vw;
+    max-height: 50vw;
+    align-self: center;
+    display: inline-block;
 }
 
+.middle{
+    text-align: center;
+}
 
 .chapter.zero{
     background-color: black;
@@ -287,15 +298,18 @@ h1.one{
 .chapter.five{
     background-image: url("media/bliss.jpg");
     background-attachment: fixed;
+    background-size: cover;
     font-family: 'Tahoma' ,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
 }
 
 .txtcontent.five{
     background: white;
     color: black;
-    border: 3px ridge #245ddc;
+    border: 6px groove #245ddc;
+    border-top-width: 40px;
+    border-top-style: solid;
     text-align: left;
-    border-radius: 3px;
+    border-radius: 6px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .3);
     font-size: 18px;
 }
@@ -318,6 +332,7 @@ button{
 .chapter.six{
     background-image: url("media/vistawall.jpg");
     background-attachment: fixed;
+    background-size: cover;
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
 }
 
@@ -358,6 +373,7 @@ button{
 .chapter.seven{
     background-image: url("media/win7wall.jpg");
     background-attachment: fixed;
+    background-size: cover;
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
 }
 
@@ -378,6 +394,7 @@ button{
 .chapter.eight{
     background-image: url("media/win8wall.jpg");
     background-attachment: fixed;
+    background-size: cover;
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
 }
 
@@ -402,6 +419,7 @@ button{
 .chapter.nine{
     background-image: url("media/win10wall.jpeg");
     background-attachment: fixed;
+    background-size: cover;
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
 }
 
@@ -427,6 +445,7 @@ button{
 .chapter.ten{
     background-image: var(--eleven);
     background-attachment: fixed;
+    background-size: cover;
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
 }
 
@@ -482,16 +501,16 @@ button{
 .media.hidden.right{
     opacity: 0;
     transition: all 1s;
-    transform: translateX(-20%);
+    transform: translateX(+20%);
 }
 
-.media.show{
+.media.show, .media.show.left, .media.show.right{
     opacity: 1;
     transform: translateX(0);
 }
 
 .txtcontent > .media:hover, .txtcontent > .blur:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.5s;
     cursor: pointer;
 }
@@ -508,7 +527,6 @@ button{
     width: 100%;
     z-index: 100;
     display: none;
-    transition : .5s;
 }
 
 .popup span{
@@ -522,6 +540,7 @@ button{
     font-size: 3em;
     font-weight: bolder;
     transition: .2s;
+    z-index: 101;
 }
 
 .popup span:hover{
@@ -534,6 +553,9 @@ button{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    object-fit: fill;
-    transition: 1s;
+    max-width: 90%;
+    max-height: 90%;
+    min-width: 40%;
+    min-height: 40%;
+    object-fit: contain;
 }

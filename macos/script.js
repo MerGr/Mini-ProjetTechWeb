@@ -42,7 +42,24 @@ const observer = new IntersectionObserver((entries) => {
             entry.target.classList.remove('show');
         }
     });
+}, {
+    threshold: 0.1
 });
 
 const hiddenelmts = document.querySelectorAll('.hidden');
 hiddenelmts.forEach((el) => observer.observe(el));
+
+//
+
+// Media Modal
+
+document.querySelectorAll('img.media').forEach(img => {
+    img.onclick = () => {
+        document.querySelector('.popup').style.display = 'block';
+        document.querySelector('.popup img').src = img.getAttribute('src');
+    }
+});
+
+document.querySelector('.popup span').onclick = () => {
+    document.querySelector('.popup').style.display = 'none';
+}
