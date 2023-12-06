@@ -1,33 +1,55 @@
 <!DOCTYPE html>
 
-<html lang="en-GB">
-    <head>
-        <meta charset="utf-8"/>
-        <title>Home - KronoOS</title>
-        <link rel="stylesheet" href="index_style.css"/>
-    </head>
-  
-    <body>
-        <!-- Navigation bar -->
-        <div id="topnav">
-            <a href="index.html">Home</a>
-            <a href="win/win.html">Windows</a>
-            <a href="macos/macos.html">Mac OS</a>
-            <a href="linux/linux.html">Linux</a>
-            <a href="other/other.html">Others</a>
-        </div>
-  
-        <div id="Logo">
-        </div>
-  
-        <div class="infobox">
-            <h4>Made by</h4>
-            <ul>
-              <li>GRAOUI Abderrahmane</li>
-              <li>ELYAZIDI Tarik</li>
-              <li>ETTAOUYL Siham</li>
-              <li>EZZANATY Assmae</li>
-            </ul>
-        </div> 
-    </body>
+<html lang="en-GB" data-theme="light">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Home - KronoOS</title>
+    <link rel="stylesheet" href="index_style.css" />
+    <script src="index_js.js" defer></script>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <header id="HeaderLogo">
+        <a href="../index.html">
+            <h1 id="navbarlogo">o‿OS</h1>
+        </a>
+    </header>
+    <nav id="sidebar">
+        <ul>
+            <li class="navoption win"><a href="win/win.html"><img src="win_white.png" alt="Windows Logo"></a></li>
+            <li class="navoption mac"><a href="macos/macos.html"><img src="macos_light.png" alt="MacOS Logo"></a></li>
+            <li class="navoption"><a href="linux/linux.html"><img src="linux.png" alt="Linux Logo"></a></li>
+            <li class="navoption others"><a href="other/other.html"><img src="amiga2.png" alt="AmigaOS Logo"></a></li>
+            <li><button id="themebttn" onclick="toggleTheme()"></button></li>
+        </ul>
+    </nav>
+
+    <h1>Project Krono‿OS</h1>
+
+    <div class="infobox">
+        <p>Interactive Encyclopedia through the history of Personal Computer Operating Systems, touching on the three major players :<br>
+        Microsoft Windows, Apple Mac OS and GNU/Linux.
+        </p>
+    </div>
+
+    <div class="infobox">
+        <h2>MADE BY</h2>
+        <ul>
+            <li>GRAOUI Abderrahmane</li>
+            <li>ELYAZIDI Tarik</li>
+            <li>ETTAOUYL Siham</li>
+            <li>EZZANATY Assmae</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>2023 (c) Copyright LOLOLOLOLOLOLOLOL</p>
+    </footer>
+</body>
+
 </html>
