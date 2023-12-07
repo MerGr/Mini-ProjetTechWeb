@@ -295,6 +295,23 @@ h1.two{
     flex-direction: column;
 }
 
+button{
+    border-radius: 5px;
+    display: inline;
+    padding: 5em;
+    background: #a68967;
+    border: 1px outset black;
+    box-shadow: 0 0 3px black;
+}
+
+button a{
+    color: black;
+}
+
+button:hover{
+    background: #b68967;
+}
+
 .chapter.two{
     background: linear-gradient(to top, #525a67, #bfc7dc);
     font-family: 'Unifont','Courier New', Courier, monospace;
