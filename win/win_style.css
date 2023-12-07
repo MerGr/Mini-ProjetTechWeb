@@ -53,7 +53,7 @@ html[data-theme="dark"] {
         --eleven: url("media/win11darkwall.jpg");
 }
 
-body, #sidebar, .chapter, .blur, #deadspace{
+body, #sidebar, .chapter, .blur, .locked, #deadspace{
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     color: rgba(var(--text));
@@ -329,7 +329,7 @@ h1.one{
     box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 
-button{
+#DEbutton{
     border-radius: 50%;
     display: inline;
     padding: 5em;
@@ -369,11 +369,11 @@ button{
     box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 
-.blur > .media{
+.blur > .media, .locked > .quiz, .locked > .media{
     width: 100%;
 }
 
-.txtcontent .blur{
+.txtcontent .blur, .txtcontent .locked{
     width: fit-content;
     margin: 10px;
 }
@@ -573,4 +573,53 @@ button{
     min-width: 40%;
     min-height: 40%;
     object-fit: contain;
+}
+
+.locked{
+    position: relative;
+}
+
+.locked .quiz {
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, .3);
+    background-attachment: fixed;
+    color: rgb(var(--text));
+    font-size: 18px;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    flex-direction: column;
+    border-radius: 25px;
+    padding-top: 50%;
+    text-align: center;
+}
+
+.quiz button{
+    border-radius: 10px;
+    padding: 1em;
+    width: 20%;
+    border: 2px solid rgb(var(--accent));
+    background-color: rgb(var(--primary));
+}
+
+.quiz button:hover{
+    background-color: rgb(var(--secondary));
+}
+
+.fade-out {
+    opacity: 0;
+    display: none;
+    transition: all 1s;
+}
+
+.inputcontainer{
+    display: flex;
+    gap: 30px;
+    margin: 10px;
+    justify-content: center;
+}
+
+input[type="radio"]{
+    background-color: rgb(var(--primary));
+
 }

@@ -95,7 +95,7 @@ html[data-theme="dark"] {
         --accent: var(--accent-dark);
 }
 
-body, #sidebar, .chapter, .blur, .metal, .leopard, .sierra, .bigsur,#deadspace{
+body, #sidebar, .chapter, .blur, .metal, .leopard, .sierra, .bigsur,#deadspace, .locked{
     display: flex;
     color: rgba(var(--text));
     overflow-x: hidden;
@@ -381,7 +381,7 @@ h1.seven{
     box-shadow: 10px 10px black;
 }
 
-button{
+#DEbutton{
     border-radius: 5px;
     display: inline;
     padding: 5em;
@@ -390,11 +390,11 @@ button{
     box-shadow: 0 0 3px black;
 }
 
-button a{
+#DEbutton a{
     color: black;
 }
 
-button:hover{
+#DEbutton:hover{
     background: lightgrey;
 }
 
@@ -434,11 +434,12 @@ button:hover{
     box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 
-.blur > .media{
+.blur > .media, .locked > .quiz, .locked > .media{
     width: 100%;
+    height: 100%;
 }
 
-.txtcontent .blur{
+.txtcontent .blur, .txtcontent .locked{
     width: fit-content;
     margin: 10px;
 }
@@ -731,4 +732,55 @@ button:hover{
     min-width: 40%;
     min-height: 40%;
     object-fit: contain;
+}
+
+
+.locked{
+    position: relative;
+    overflow-y: hidden;
+}
+
+.locked .quiz {
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, .3);
+    background-attachment: fixed;
+    color: rgb(var(--text));
+    font-size: .5em;
+    z-index: 1;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 25% 20px 10px 10px;
+    text-align: center;
+}
+
+.quiz button{
+    border-radius: 10px;
+    padding: 1em;
+    min-width: 50px;
+    border: 2px solid rgb(var(--accent));
+    background-color: rgb(var(--primary));
+}
+
+.quiz button:hover{
+    background-color: rgb(var(--secondary));
+}
+
+.fade-out {
+    transition: all 1s;
+    opacity: 0;
+    display: none;
+}
+
+.inputcontainer{
+    display: flex;
+    gap: 30px;
+    margin: 10px;
+    justify-content: center;
+}
+
+input[type="radio"]{
+    background-color: rgb(var(--primary));
 }
