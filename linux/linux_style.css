@@ -6,6 +6,15 @@
       url('fonts/unifont.woff') format('woff');
   }
 
+@font-face {
+    font-family: 'Cantarell';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+      url('fonts/Cantarell-Regular.woff') format('woff'),
+      url('fonts/Cantarell-Regular.ttf') format('ttf');
+  }
+
 :root {
     --text-light: 0, 0, 0;
     --background-light: 245, 239, 229;
@@ -37,7 +46,16 @@ html[data-theme="dark"] {
         --accent: var(--accent-dark);
 }
 
-body, #sidebar, .chapter,#deadspace, .quote, .window, .windowtwo, .windowthree{
+body, 
+#sidebar, 
+.chapter,
+#deadspace, 
+.quote, 
+.window, 
+.windowtwo, 
+.windowthree, 
+.windowfour,
+.windowfive{
     display: flex;
     color: white;
     overflow-x: hidden;
@@ -292,6 +310,20 @@ h1.two{
     font-family: 'Unifont','Courier New', Courier, monospace;   
 }
 
+.chapter.five{
+    background-image: url('media/ubuntu4wall.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Cantarell','Unifont','Courier New', Courier, monospace;
+}
+
+.chapter.six{
+    background-image: url('media/androidwall.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Cantarell','Unifont','Courier New', Courier, monospace;
+}
+
 .window{
     padding: 30px 5px 5px 5px;
     background-color: #e7ac82;
@@ -318,6 +350,38 @@ h1.two{
     margin-top: 10em;
 }
 
+.windowfour{
+    max-width: 70vw;
+    padding: 30px 2px 2px 2px;
+    background-color: #a68967;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-attachment: fixed;
+    margin-bottom: 10em;
+    margin-top: 10em;
+}
+
+.windowfive{
+    max-width: 70vw;
+    padding: 10px 5px 5px 5px;
+    background-attachment: fixed;
+    background-image: -webkit-repeating-linear-gradient(top, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0)   6%, hsla(0,0%,100%, .1) 7.5%),
+    -webkit-repeating-linear-gradient(top, hsla(0,0%,  0%,0) 0%, hsla(0,0%,  0%,0)   4%, hsla(0,0%,  0%,.03) 4.5%),
+    -webkit-repeating-linear-gradient(top, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0) 1.2%, hsla(0,0%,100%,.15) 2.2%),
+    
+    linear-gradient(180deg, #9c9c9c  0%, 
+    #c1c1c1 47%,
+    #c7c7c7 50%,
+    #bcbcbc 53%,
+    #9c9c9c 100%);
+    box-shadow: 0 0 10px black;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-attachment: fixed;
+    margin-bottom: 10em;
+    margin-top: 10em;
+}
+
 .txtcontent.two{
     background: white;
     border: 3px inset silver;
@@ -332,7 +396,7 @@ h1.two{
 
 .txtcontent.three{
     background: white;
-    border: 3px inset #f6b8b5;
+    border: 3px inset silver;
     box-shadow: none;
     color: black;
     text-align: left;
@@ -342,7 +406,11 @@ h1.two{
     font-size: 18px;
 }
 
-.txtcontent .window, .txtcontent .windowtwo, .txtcontent .windowthree{
+.txtcontent .window, 
+.txtcontent .windowtwo, 
+.txtcontent .windowthree, 
+.txtcontent .windowfour,
+.txtcontent .windowfive{
     width: fit-content;
     border: 0;
     margin: auto;
@@ -358,7 +426,10 @@ h1.two{
     width: 100%;
 }
 
-.windowtwo > .media, .windowthree > .media{
+.windowtwo > .media, 
+.windowthree > .media, 
+.windowfour > .media,
+.windowfive > .media{
     border: 3px inset silver;
     border-radius: 0;
     margin: 0;
@@ -431,7 +502,12 @@ button:hover{
     transform: translateX(0);
 }
 
-.txtcontent > .media:hover, .txtcontent > .window:hover, .txtcontent > .windowtwo:hover, .txtcontent > .windowthree:hover{
+.txtcontent > .media:hover,
+ .txtcontent > .window:hover,
+ .txtcontent > .windowtwo:hover,
+ .txtcontent > .windowthree:hover, 
+.txtcontent > .windowfour:hover,
+.txtcontent > .windowfive:hover{
     transform: scale(1.05);
     transition: 0.5s;
     cursor: pointer;
