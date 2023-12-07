@@ -75,7 +75,7 @@ const quizzes = [
     ],
 ];
 
-let currentQuiz = 0;
+let currentQuiz = 1;
 let currentQuestion = 0;
 
 function loadQuestion() {
@@ -124,9 +124,7 @@ function restartQuiz(quizNumber) {
 }
 
 window.onload = function () {
-    for (let i = 1; i <= 2; i++) {
-        currentQuiz++;
-        loadQuestion();
-    }
+
+    loadQuestion();
     document.getElementsByClassName(`quiz`).style.display = 'flex';
 };
