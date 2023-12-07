@@ -30,7 +30,7 @@ html[data-theme="dark"] {
 }
 
 
-body, #sidebar, .infobox{
+body, #sidebar, .infobox, .blur{
     display: flex;
     color: rgba(var(--text));
     overflow-x: hidden;
@@ -85,6 +85,7 @@ header:hover{
 
 
 #sidebar:hover {
+    opacity: 1;
     transform: translateX(0%);
     transition: 0.5s;
     cursor: pointer;
@@ -94,6 +95,10 @@ header:hover{
     flex-direction: column;
 }
 
+.infobox ul{
+    flex-direction: column;
+    gap: 10px;
+}
 
 li, a{
     text-decoration: none;
@@ -148,15 +153,54 @@ h1{
 }
 
 .infobox {
-    background: linear-gradient(to bottom right, rgba(var(--secondary)) 0%, rgba(var(--primary)) 75%);
+    background: rgb(var(--accent));
     border-radius: 5px;
-    padding: 20px;
-    margin-left: 250px;
-    margin-top: 100px;
-    background-color: rgba(var(--secondary));
-    width: 50%;
+    padding: 0;
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+
+    font-size: 3em;
+    min-height: 5em;
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     flex-direction: column;
+}
+
+.infobox.win{
+    background-image: url('win/media/bliss.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 70%;
+    text-align: center;
+    padding-top: 3em;
+    color: black;
+}
+
+.infobox.mac{
+    background-image: url('macos/media/110.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    padding-top: 3em;
+    color: black;
+}
+
+.infobox.linux{
+    background-image: url('media/kA0mENQ.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50%;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.infobox.other{
+    background-image: url('media/demo-amiga.gif');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50%;
+    text-align: center;
+    padding-top: 3em;
 }
 
 footer{
@@ -192,4 +236,21 @@ footer{
 .show{
     opacity: 1;
     transform: translateY(0);
+}
+
+.infobox.hidden.left{
+    opacity: 0;
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+
+.infobox.hidden.right{
+    opacity: 0;
+    transition: all 1s;
+    transform: translateX(+100%);
+}
+
+.infobox.show, .infobox.show.left, .infobox.show.right{
+    opacity: 1;
+    transform: translateX(0);
 }
