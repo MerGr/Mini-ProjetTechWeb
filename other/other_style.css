@@ -1,0 +1,527 @@
+@font-face {
+    font-family: 'Amiga4ever';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+      url('fonts/amiga4everpro.woff') format('woff'),
+      url('fonts/amiga4everpro.ttf') format('ttf');
+}
+
+@import url('https://fonts.cdnfonts.com/css/bodoni-xt');
+
+:root {
+    --text-light: 0, 0, 0;
+    --background-light: 245, 239, 229;
+    --primary-light: 190, 39, 19;
+    --secondary-light: 249, 229, 190;
+    --accent-light: 213, 140, 21;
+
+    --text-dark: 255, 255, 255;
+    --background-dark: 26, 20, 10;
+    --primary-dark: 236, 85, 65;
+    --secondary-dark: 65, 46, 6;
+    --accent-dark: 234, 160, 42;
+}  
+
+
+html[data-theme="light"] {
+        --text: var(--text-light);
+        --background: var(--background-light);
+        --primary: var(--primary-light);
+        --secondary: var(--secondary-light);
+        --accent: var(--accent-light);
+}
+
+html[data-theme="dark"] {
+        --text: var(--text-dark);
+        --background: var(--background-dark);
+        --primary: var(--primary-dark);
+        --secondary: var(--secondary-dark);
+        --accent: var(--accent-dark);
+}
+
+
+body, #sidebar, .infobox, .blur, .window, .chapter{
+    display: flex;
+    color: rgba(var(--text));
+    overflow-x: hidden;
+    transition: color 1s;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: rgba(var(--background));
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    transition: background-color 1s;
+}
+
+header{
+    top: 5px;
+    left: 10px;
+    position: fixed;
+    border-radius: 50px;
+    background: rgba(var(--background), 1);
+    border: 3px outset rgb(var(--accent));
+    z-index: 10;
+    opacity: 20%;
+    transition: opacity 5s;
+}
+
+header:hover{
+    background-color: rgb(var(--accent));
+    opacity: 1;
+    transition : 0.5s;
+}
+
+#sidebar{
+    border: 3px hidden;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    position: fixed;
+    overflow: hidden;
+    flex-direction: column;
+    top: 25vh;
+    width: auto;
+    transform: translateX(-92%);
+    height: 50%;
+    box-shadow: 5px 3px 3px #DDDDDD33;
+    background: radial-gradient(circle at center, rgba(var(--primary), .8), rgba(var(--accent), 1) 100%);
+    z-index: 10;
+    opacity: 20%;
+    transition: opacity 5s, transform 0.5s;
+}
+
+
+#sidebar:hover {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#sidebar ul{
+    flex-direction: column;
+}
+
+.infobox ul{
+    flex-direction: column;
+    gap: 10px;
+}
+
+li, a{
+    text-decoration: none;
+    list-style: none;
+    color: rgba(var(--text));
+    font-size: 20px;
+}
+
+img{
+    padding: 10px 10px 10px 10px;
+}
+
+.navoption img{
+    width: 40px;
+}
+
+
+a:hover img{
+    background-color: rgba(var(--accent), .3);
+    border-radius: 10px;
+    color: rgba(var(--background));
+    cursor: pointer;
+}
+
+
+#themebttn{
+    border-radius: 25px;
+    padding: 10px;
+    background-color: rgb(var(--accent));
+}
+
+#themebttn:hover{
+    background-color: rgb(var(--secondary));
+}
+
+#navbarlogo{
+    background: -webkit-linear-gradient(bottom right, rgba(var(--text)) 0%, rgba(var(--accent)) 50%,rgba(var(--primary)) 95%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    padding: 5px;   
+}
+
+
+h1{
+    background: -webkit-linear-gradient(bottom right, rgba(var(--text)) 0%, rgba(var(--accent)) 50%,rgba(var(--primary)) 95%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 10vw;
+}
+
+.infobox {
+    background: rgb(var(--accent));
+    border-radius: 5px;
+    padding: 0;
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+    font-size: 2em;
+    min-height: 5em;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-direction: column;
+}
+
+
+h1{
+    font-size: 10vw;
+    color: white;
+}
+
+h1.two{
+    font-size: 8vw;
+    color: black;
+}
+
+#deadspace{
+    height: 50%;
+    color: lightgray;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+
+.chapter, #deadspace{
+    text-align: center;
+    width: 100vw;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#arrow{
+    width: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.media.header{
+    padding: 3em 0 3em 0;
+    min-width: 30vw;
+}
+
+.txtcontent {
+    padding: 20px;
+    margin-bottom: 50vh;
+    font-size: 25px;
+    width: 70%;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.media{
+    max-width: 60vw;
+    padding: 10px;
+    display: inline;
+}
+
+
+.txtcontent > .left{
+    float: left;
+    margin-right: 20px;
+    margin-left: 0;
+    max-width: 20vw;
+}
+
+.txtcontent > .right{
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+    max-width: 20vw;
+}
+
+.media.center{
+    max-width: 70vw;
+    max-height: 50vw;
+    min-width: 80%;
+    align-self: center;
+    display: inline-block;
+}
+
+.middle{
+    text-align: center;
+}
+
+.chapter.zero{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.txtcontent.zero{
+    background: black;
+    color: white;
+}
+
+.media.zero{
+    border: 5px double white;
+    margin: 10px;
+}
+
+.media.header.zero{
+    border: none;
+    width: 10em;
+}
+
+.chapter.one{
+    font-family: 'Amiga4ever','BodoniXT','Times New Roman', Times, serif;
+    background-image: url('media/amigaback.png');
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+}
+
+.chapter.two{
+    font-family: 'Times New Roman', Times, serif;
+    background: #336698;
+    color: black;
+}
+
+.usr{
+    color: lightgreen;
+    font-weight: bolder;
+}
+
+.quote{
+    font-family: 'BodoniXT','Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+    flex-direction: column;
+}
+
+button{
+    border-radius: 5px;
+    display: inline;
+    padding: 5em;
+    background: #a68967;
+    border: 1px outset black;
+    box-shadow: 0 0 3px black;
+}
+
+button a{
+    color: black;
+}
+
+button:hover{
+    background: #b68967;
+}
+
+.txtcontent > .media:hover,
+ .txtcontent > .window:hover,
+ .txtcontent > .windowtwo:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.window{
+    width: fit-content;
+    max-width: 70vw;
+    padding: 30px 5px 5px 5px;
+    background-color: #dddddd;
+    border: 3px outset #cccccc;
+    background-attachment: fixed;
+    margin-bottom: 10em;
+    box-shadow: 10px 10px black;
+}
+
+.txtcontent.one{
+    font-family: 'Amiga4ever','BodoniXT','Times New Roman', Times, serif;
+    background: white;
+    border: 3px inset silver;
+    box-shadow: none;
+    color: black;
+    text-align: left;
+    border-radius: 3px;
+    width: max-content;
+    margin: 0;
+    font-size: 18px;
+}
+
+.txtcontent.two{
+    font-family: 'Amiga4ever','BodoniXT','Times New Roman', Times, serif;
+    background: white;
+    border: 3px inset silver;
+    box-shadow: none;
+    color: black;
+    text-align: left;
+    border-radius: 3px;
+    width: max-content;
+    margin: 0;
+    font-size: 18px;
+}
+
+.txtcontent .window,
+.txtcontent .windowtwo{
+    width: fit-content;
+    border: 0;
+    margin: 15px;
+}
+
+.window iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.window > .media, .windowtwo > .media{
+    border: 3px inset silver;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    width: 100%;
+}
+
+button{
+    border-radius: 5px;
+    display: inline;
+    padding: 5em;
+    background: white;
+    border: 1px solid black;
+    box-shadow: 0 0 3px black;
+}
+
+button a{
+    color: black;
+}
+
+button:hover{
+    background: lightgrey;
+}
+
+.blur{
+    width: 70%;
+    padding: 40px 5px 5px 5px;
+    backdrop-filter: blur(3px);
+    background: repeating-linear-gradient(45deg, rgba(25,40,55,0.75) 35%, rgba(65,85,100,0.75) 40%, rgba(65,85,100,0.75) 42%, rgba(25,40,55,0.75) 50%, rgba(25,40,55,0.75) 55%, rgba(70,85,100,0.75) 60%, rgba(70,85,100,0.75) 75%, rgba(25,40,55,0.75) 90%); 
+    background-attachment: fixed;
+    margin: 0 0 40vh 0;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.blur > .media{
+    width: 100%;
+}
+
+
+footer{
+    width: 100%;
+    background: rgba(var(--secondary), 255);
+    height: 50px;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+::-webkit-scrollbar-track {
+    background: rgba(var(--primary), .5);
+  }
+  
+::-webkit-scrollbar-thumb {
+    background: rgb(var(--accent));
+    border-radius: 25px;
+  }
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(var(--primary), 255);
+  }
+
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+    transform: translateY(-20%);
+}
+
+.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.infobox.hidden.left{
+    opacity: 0;
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+
+.infobox.hidden.right{
+    opacity: 0;
+    transition: all 1s;
+    transform: translateX(+100%);
+}
+
+.infobox.show, .infobox.show.left, .infobox.show.right{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.txtcontent > .media:hover, .txtcontent > .blur:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.popup.blur{
+    margin: 0;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.popup span{
+    position: absolute;
+    top: 20px;
+    right : 20px;
+    padding-bottom: .3em;
+    border-radius: 20px;
+    background: rgba(var(--accent), .8);
+    color: rgb(var(--text));
+    font-size: 3em;
+    font-weight: bolder;
+    transition: .2s;
+    z-index: 101;
+}
+
+.popup span:hover{
+    cursor: pointer;
+    background: rgba(var(--primary), .8);
+}
+
+.popup img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+    min-width: 40%;
+    min-height: 40%;
+    object-fit: contain;
+}
+
+.blur > .media{
+    width: 100%;
+}

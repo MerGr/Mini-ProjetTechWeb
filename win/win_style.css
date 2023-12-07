@@ -256,7 +256,7 @@ h1.one{
 
 .chapter.one{
     background-color: #55ff55;
-    font-family: 'FixedSys' ,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-family: 'FixedSys' ,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .txtcontent.one{
@@ -273,7 +273,7 @@ h1.one{
 
 .chapter.two{
     background-color: #55aaaa;
-    font-family: 'MS-sans-serif' ,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-family: 'MS-sans-serif' ,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .txtcontent.two{
@@ -289,7 +289,7 @@ h1.one{
 
 .chapter.three, .chapter.four{
     background-color: #008080;
-    font-family: 'MS-sans-serif' ,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-family: 'MS-sans-serif' ,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .txtcontent.three, .txtcontent.four{
@@ -307,7 +307,7 @@ h1.one{
     background-image: url("media/bliss.jpg");
     background-attachment: fixed;
     background-size: cover;
-    font-family: 'Tahoma' ,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-family: 'Tahoma' ,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .txtcontent.five{
@@ -341,7 +341,7 @@ button{
     background-image: url("media/vistawall.jpg");
     background-attachment: fixed;
     background-size: cover;
-    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .txtcontent.six{
@@ -382,7 +382,7 @@ button{
     background-image: url("media/win7wall.jpg");
     background-attachment: fixed;
     background-size: cover;
-    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .txtcontent.seven{
@@ -403,7 +403,7 @@ button{
     background-image: url("media/win8wall.jpg");
     background-attachment: fixed;
     background-size: cover;
-    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .txtcontent.eight{
@@ -428,7 +428,7 @@ button{
     background-image: url("media/win10wall.jpeg");
     background-attachment: fixed;
     background-size: cover;
-    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .txtcontent.nine{
@@ -454,7 +454,7 @@ button{
     background-image: var(--eleven);
     background-attachment: fixed;
     background-size: cover;
-    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .txtcontent.ten{
@@ -483,6 +483,13 @@ button{
     padding-bottom: 1.5em;
     margin-top: 3em;
     border-radius: 10px;
+}
+
+.chapter.eleven{
+    height: 100vh;
+    background-image: url('media/winfooter.png');
+    background-attachment: scroll;
+    background-size: cover;
 }
 
 ::-webkit-scrollbar {

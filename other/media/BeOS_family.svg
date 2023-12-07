@@ -1,0 +1,1521 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   width="1093.7008"
+   height="1122.5197"
+   viewBox="0 0 289.375 297"
+   version="1.1"
+   id="svg8">
+  <title
+     id="title9266">BeOS family and related operating systems </title>
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="marker9030"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path9028" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker8775"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path8773" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker8577"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path8575" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker8393"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path8391" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker8271"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path8269" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker7843"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path7841" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker2402"
+       refX="0.0"
+       refY="0.0"
+       orient="auto">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path2400" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1388" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Send"
+       refX="0.0"
+       refY="0.0"
+       orient="auto">
+      <path
+         transform="scale(0.3) rotate(180) translate(-2.3,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1400" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Send"
+       refX="0.0"
+       refY="0.0"
+       orient="auto">
+      <path
+         transform="scale(0.2) rotate(180) translate(6,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1382" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto">
+      <path
+         transform="scale(0.4) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#ff0000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1373" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker1940"
+       refX="0.0"
+       refY="0.0"
+       orient="auto">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#ff0000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1938" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1689"
+       refX="0.0"
+       refY="0.0"
+       orient="auto">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1687" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1367" />
+    </marker>
+    <rect
+       x="105.05029"
+       y="95.882942"
+       width="12.909118"
+       height="6.0803819"
+       id="rect1207" />
+    <rect
+       x="97.099022"
+       y="92.98307"
+       width="7.9512687"
+       height="3.7417734"
+       id="rect1201" />
+    <rect
+       x="10.022607"
+       y="265"
+       width="14.977393"
+       height="8"
+       id="rect144" />
+    <rect
+       x="10.022607"
+       y="225"
+       width="14.977393"
+       height="8"
+       id="rect138" />
+    <rect
+       x="10.022607"
+       y="185"
+       width="14.977393"
+       height="8"
+       id="rect132" />
+    <rect
+       x="10.022607"
+       y="145"
+       width="14.977393"
+       height="8"
+       id="rect126" />
+    <rect
+       x="10.022607"
+       y="105"
+       width="14.977393"
+       height="8"
+       id="rect120" />
+    <rect
+       x="10.022607"
+       y="65"
+       width="14.977393"
+       height="8"
+       id="rect114" />
+    <rect
+       x="10.022607"
+       y="25.000132"
+       width="14.977393"
+       height="7.9998698"
+       id="rect102" />
+    <rect
+       x="10.022607"
+       y="25.000132"
+       width="14.977393"
+       height="7.9998698"
+       id="rect96" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2Send-7"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1400-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1940-1"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1938-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-8"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1388-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker4769"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path4767" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker4773"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path4771" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker4777"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path4775" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker4781"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path4779" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker4785"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path4783" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker4789"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path4787" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker4793"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path4791" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker4797"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path4795" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker4801"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path4799" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker4805"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path4803" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1394" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart-7"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1373-1" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>BeOS family and related operating systems </dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by/4.0/" />
+        <dc:date>2021-11-24</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Onwa</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:language>en</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>BeOS</rdf:li>
+            <rdf:li>Haiku</rdf:li>
+            <rdf:li>Zeta</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer3"
+     style="display:inline;opacity:0.41987179">
+    <path
+       style="opacity:1;fill:none;stroke:#00598f;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 25,25.000132 H 282.83958"
+       id="path7754" />
+    <path
+       style="fill:none;stroke:#00598f;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 25,65.000001 H 282.83958"
+       id="path7756" />
+    <path
+       style="fill:none;stroke:#00598f;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 25,105 H 282.83958"
+       id="path7758" />
+    <path
+       style="fill:none;stroke:#00598f;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 25,145 H 282.83958"
+       id="path7760" />
+    <path
+       style="fill:none;stroke:#00598f;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 25,185 H 282.83958"
+       id="path7762" />
+    <path
+       style="fill:none;stroke:#00598f;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 25,225 H 282.83958"
+       id="path7764" />
+    <path
+       style="fill:none;stroke:#00598f;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 25,265 H 282.83958"
+       id="path7766" />
+  </g>
+  <g
+     id="layer1"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       id="text94"
+       style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;word-spacing:0px;white-space:pre;shape-inside:url(#rect96);"><tspan
+         x="10.023438"
+         y="26.872757"><tspan>
+</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text100"
+       style="font-size:5.64444px;line-height:1.25;font-family:sans-serif;word-spacing:0px;white-space:pre;shape-inside:url(#rect102);"
+       transform="translate(0,-3.1750001)"><tspan
+         x="10.023438"
+         y="29.994007"><tspan
+           style="shape-inside:url(#rect102)">1990</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text112"
+       style="font-size:5.64444px;line-height:1.25;font-family:sans-serif;word-spacing:0px;white-space:pre;shape-inside:url(#rect114);"
+       transform="translate(0,-3.1750001)"><tspan
+         x="10.023438"
+         y="69.994007"><tspan
+           style="font-size:5.64444px">1995</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text118"
+       style="font-size:5.64444px;line-height:1.25;font-family:sans-serif;word-spacing:0px;white-space:pre;shape-inside:url(#rect120);"
+       transform="translate(0,-3.1750001)"><tspan
+         x="10.023438"
+         y="109.99401"><tspan
+           style="font-size:5.64444px">2000</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text124"
+       style="font-size:5.64444px;line-height:1.25;font-family:sans-serif;word-spacing:0px;white-space:pre;shape-inside:url(#rect126);"
+       transform="translate(0,-3.1750001)"><tspan
+         x="10.023438"
+         y="149.99401"><tspan
+           style="font-size:5.64444px">2005</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text130"
+       style="font-size:5.64444px;line-height:1.25;font-family:sans-serif;word-spacing:0px;white-space:pre;shape-inside:url(#rect132);"
+       transform="translate(0,-3.1750001)"><tspan
+         x="10.023438"
+         y="189.99401"><tspan
+           style="font-size:5.64444px">2010</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text136"
+       style="font-size:5.64444px;line-height:1.25;font-family:sans-serif;word-spacing:0px;white-space:pre;shape-inside:url(#rect138);"
+       transform="translate(0,-3.1750001)"><tspan
+         x="10.023438"
+         y="229.99401"><tspan
+           style="font-size:5.64444px">2015</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text142"
+       style="font-size:5.64444px;line-height:1.25;font-family:sans-serif;word-spacing:0px;white-space:pre;shape-inside:url(#rect144);"
+       transform="translate(0,-3.1750001)"><tspan
+         x="10.023438"
+         y="269.99401"><tspan
+           style="font-size:5.64444px">2020</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="110.47585"
+       y="86.434959"
+       id="text1189"><tspan
+         id="tspan1187"
+         x="110.47585"
+         y="86.434959"
+         style="stroke-width:0.264583" /></text>
+    <text
+       xml:space="preserve"
+       id="text1199"
+       style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;word-spacing:0px;white-space:pre;shape-inside:url(#rect1201);" />
+    <text
+       xml:space="preserve"
+       id="text1205"
+       style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;word-spacing:0px;white-space:pre;shape-inside:url(#rect1207);" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;fill:#ffffff;stroke-width:0.264583"
+       x="200.05124"
+       y="193"
+       id="text1327"><tspan
+         id="tspan1325"
+         x="200.05124"
+         y="193"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ffffff;stroke-width:0.264583" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:0.85;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="237.04134"
+       y="185"
+       id="text1896"><tspan
+         id="tspan1894"
+         x="237.04134"
+         y="185"
+         style="stroke-width:0.264583"></tspan></text>
+  </g>
+  <g
+     id="layer4"
+     style="display:inline">
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect7769"
+       width="61.92083"
+       height="33.943771"
+       x="220.91875"
+       y="27.778255"
+       ry="0" />
+    <rect
+       style="opacity:1;fill:#008000;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect7771"
+       width="11.90625"
+       height="6.614583"
+       x="225.3483"
+       y="32.470837" />
+    <rect
+       style="opacity:1;fill:#ffb380;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect7775"
+       width="11.693042"
+       height="6.2177072"
+       x="225.3483"
+       y="41.723961" />
+    <rect
+       style="opacity:1;fill:#ff8080;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect7777"
+       width="11.693022"
+       height="6.1158552"
+       x="225.3483"
+       y="50.884144" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:0.85;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="251.08958"
+       y="36.948872"
+       id="text7781"><tspan
+         id="tspan7779"
+         x="251.08958"
+         y="36.948872"
+         style="stroke-width:0.264583">Open source</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:0.85;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="251.22188"
+       y="46.037498"
+       id="text7785"><tspan
+         id="tspan7783"
+         x="251.22188"
+         y="46.037498"
+         style="stroke-width:0.264583">Mixed source</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:0.85;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="252.01562"
+       y="55.015625"
+       id="text7789"><tspan
+         id="tspan7787"
+         x="252.01562"
+         y="55.015625"
+         style="stroke-width:0.264583">Closed source</tspan></text>
+  </g>
+  <g
+     id="layer2"
+     style="display:inline">
+    <rect
+       style="fill:#ff8080;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect202"
+       width="18.520836"
+       height="12.73047"
+       x="119.06245"
+       y="71.602867" />
+    <rect
+       style="fill:#ff8080;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1029"
+       width="18.520836"
+       height="6.6666741"
+       x="119.06245"
+       y="84.333328" />
+    <rect
+       style="fill:#ff8080;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1033"
+       width="18.520836"
+       height="5.1000032"
+       x="119.06245"
+       y="91.000008" />
+    <rect
+       style="fill:#ff8080;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1039"
+       width="18.520836"
+       height="10.9"
+       x="119.06245"
+       y="96.100006" />
+    <rect
+       style="fill:#ff8080;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1043"
+       width="18.520836"
+       height="12.3"
+       x="119.06245"
+       y="107" />
+    <rect
+       style="fill:#ff8080;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1055"
+       width="18.535217"
+       height="18.030731"
+       x="78.203056"
+       y="101.26927" />
+    <rect
+       style="fill:#ff8080;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1067"
+       width="18.25625"
+       height="5.4333997"
+       x="143.40396"
+       y="143.6666" />
+    <rect
+       style="fill:#ff8080;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1075"
+       width="18.25625"
+       height="2.5666001"
+       x="143.40396"
+       y="149.10001" />
+    <rect
+       style="fill:#ff8080;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1079"
+       width="18.25625"
+       height="3.9994001"
+       x="143.40396"
+       y="151.66661" />
+    <rect
+       style="fill:#ff8080;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1083"
+       width="18.25625"
+       height="6.6669998"
+       x="143.40396"
+       y="155.666" />
+    <rect
+       style="fill:#ff8080;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1087"
+       width="18.25625"
+       height="1.33366"
+       x="143.40396"
+       y="162.33299" />
+    <rect
+       style="fill:#008000;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:0.3, 0.3;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1095"
+       width="18.586979"
+       height="63.699997"
+       x="50.535416"
+       y="119.3" />
+    <rect
+       style="fill:#008000;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1105"
+       width="18.586977"
+       height="72"
+       x="50.535416"
+       y="183" />
+    <rect
+       style="fill:#008000;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1107"
+       width="18.586977"
+       height="26"
+       x="50.535416"
+       y="255" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send-7)"
+       d="M 119.19479,99.189094 H 87.183319 v 1.551006"
+       id="path1111" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker7843)"
+       d="m 137.58328,119.3 15.09196,0.0783 3.2e-4,23.82531"
+       id="path1113" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.365, 4.38;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 73.818749,25.000132 V 280.99998"
+       id="path1115" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="59.941566"
+       y="147.76979"
+       id="text1119"><tspan
+         id="tspan1117"
+         x="59.941566"
+         y="147.76979"
+         style="font-size:3.52778px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583">Haiku</tspan><tspan
+         x="59.941566"
+         y="152.17952"
+         style="font-size:2.82222px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         id="tspan1181">(OpenBeOS)</tspan><tspan
+         x="59.941566"
+         y="156.58923"
+         style="font-size:2.11667px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         id="tspan1121">pre Alpha</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="59.795834"
+       y="215.93237"
+       id="text1119-1"><tspan
+         id="tspan1117-4"
+         x="59.795834"
+         y="215.93237"
+         style="font-size:3.52778px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583">Haiku</tspan><tspan
+         x="59.795834"
+         y="220.3421"
+         style="font-size:2.11667px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         id="tspan1121-0">Alpha</tspan><tspan
+         x="59.795834"
+         y="224.75182"
+         style="font-size:2.11667px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         id="tspan1153">R1A1 to R1A4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="60.060417"
+       y="264.88031"
+       id="text1163"><tspan
+         id="tspan1157"
+         x="60.060417"
+         y="264.88031"
+         style="font-size:3.52778px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583">Haiku</tspan><tspan
+         x="60.060417"
+         y="269.29004"
+         style="font-size:2.11667px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         id="tspan1159">Beta</tspan><tspan
+         x="60.060417"
+         y="273.69977"
+         style="font-size:2.11667px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         id="tspan1161">R1B1 to R1B3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="128.53793"
+       y="77.05027"
+       id="text1169"><tspan
+         x="128.53793"
+         y="77.05027"
+         style="font-size:3.52778px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         id="tspan1173">BeOS</tspan><tspan
+         x="128.53793"
+         y="81.459991"
+         style="font-size:2.11667px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         id="tspan1177">DR1 to DR8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="128.70979"
+       y="87.215408"
+       id="text1193"><tspan
+         id="tspan1191"
+         x="128.70979"
+         y="87.215408"
+         style="font-size:2.82222px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583">BeOS</tspan><tspan
+         x="128.70979"
+         y="90.118935"
+         style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583"
+         id="tspan1195">AAPR to PR2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;line-height:0.75;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;stroke-width:0.264583"
+       x="128.83281"
+       y="93.699318"
+       id="text1213"><tspan
+         x="128.83281"
+         y="93.699318"
+         style="font-size:2.82222px;text-align:center;text-anchor:middle;fill:#ffffff"
+         id="tspan1221">BeOS</tspan><tspan
+         x="128.83281"
+         y="95.368126"
+         style="font-size:2.11667px;text-align:center;text-anchor:middle;fill:#ffffff"
+         id="tspan1227">R3 to R3.2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="128.56219"
+       y="100.99373"
+       id="text1231"><tspan
+         id="tspan1229"
+         x="128.56219"
+         y="100.99373"
+         style="font-size:3.52778px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583">BeOS</tspan><tspan
+         x="128.56219"
+         y="104.15495"
+         style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583"
+         id="tspan1233">R4 to R4.5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="128.49628"
+       y="113.05827"
+       id="text1237"><tspan
+         id="tspan1235"
+         x="128.49628"
+         y="113.05827"
+         style="font-size:3.52778px;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583">BeOS</tspan><tspan
+         x="128.49628"
+         y="116.2195"
+         style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.264583"
+         id="tspan1239">R5 to R5.1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="87.57708"
+       y="109.66978"
+       id="text1243"><tspan
+         id="tspan1241"
+         x="87.57708"
+         y="109.66978"
+         style="fill:#ffffff;stroke-width:0.264583">BeIA</tspan><tspan
+         x="87.57708"
+         y="114.07949"
+         style="font-size:2.11667px;fill:#ffffff;stroke-width:0.264583"
+         id="tspan1245">PR to 2.0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="152.66437"
+       y="147.5052"
+       id="text1249"><tspan
+         id="tspan1247"
+         x="152.66437"
+         y="147.5052"
+         style="fill:#ffffff;stroke-width:0.264583">Zeta RC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="152.39975"
+       y="150.94479"
+       id="text1253"><tspan
+         id="tspan1251"
+         x="152.39975"
+         y="150.94479"
+         style="font-size:2.11667px;fill:#ffffff;stroke-width:0.264583">Zeta R1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="152.53203"
+       y="154.91354"
+       id="text1257"><tspan
+         id="tspan1255"
+         x="152.53203"
+         y="154.91354"
+         style="fill:#ffffff;stroke-width:0.264583">Zeta R1.1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="152.79665"
+       y="160.46979"
+       id="text1261"><tspan
+         id="tspan1259"
+         x="152.79665"
+         y="160.46979"
+         style="fill:#ffffff;stroke-width:0.264583">Zeta R1.2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="152.39972"
+       y="167.08437"
+       id="text1265"><tspan
+         id="tspan1263"
+         x="152.39972"
+         y="167.08437"
+         style="stroke-width:0.264583">Zeta R1.5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:3.52777px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="58.371666"
+       y="98.451752"
+       id="text1269"><tspan
+         id="tspan1267"
+         x="58.371666"
+         y="98.451752"
+         style="stroke-width:0.264583">BeOS-inspired</tspan><tspan
+         x="58.371666"
+         y="102.86147"
+         style="stroke-width:0.264583"
+         id="tspan1271">systems</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458299;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.26458299,3.17499584;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 173.20301,25.000132 V 280.99998"
+       id="path1275" />
+    <rect
+       style="fill:#ffb380;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1283"
+       width="19.279957"
+       height="14.667332"
+       x="177.56973"
+       y="117.666" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:2.82222px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="187.25854"
+       y="125.94166"
+       id="text1289"><tspan
+         id="tspan1287"
+         x="187.25854"
+         y="125.94166"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.264583">BlueEyedOS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:3.52777px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="204.15733"
+       y="98.745148"
+       id="text1293"><tspan
+         id="tspan1291"
+         x="204.15733"
+         y="98.745148"
+         style="stroke-width:0.264583">Linux-based</tspan><tspan
+         x="204.15733"
+         y="103.15486"
+         style="stroke-width:0.264583"
+         id="tspan1295">BeOS-inspired systems</tspan></text>
+    <rect
+       style="fill:#008000;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1297"
+       width="17.88562"
+       height="15.789582"
+       x="202.27368"
+       y="121" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:3.52777px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="211.59688"
+       y="127.84025"
+       id="text1301"><tspan
+         id="tspan1299"
+         x="211.59688"
+         y="127.84025"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ffffff;stroke-width:0.264583">Cosmoe</tspan></text>
+    <rect
+       style="fill:#008000;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1307"
+       width="17.650393"
+       height="7.5916634"
+       x="228.86429"
+       y="176.74167" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:3.52777px;line-height:1.05;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="237.72783"
+       y="179.77101"
+       id="text1311"><tspan
+         id="tspan1309"
+         x="237.72783"
+         y="179.77101"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ffffff;stroke-width:0.264583">ZevenOS</tspan><tspan
+         x="237.72783"
+         y="183.47517"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ffffff;stroke-width:0.264583"
+         id="tspan1313">(Zebuntu)</tspan></text>
+    <rect
+       style="fill:#008000;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1315"
+       width="17.679878"
+       height="40"
+       x="228.83481"
+       y="225"
+       ry="0" />
+    <rect
+       style="fill:#008000;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1319"
+       width="17.650408"
+       height="7.8798113"
+       x="228.86427"
+       y="184.33331" />
+    <rect
+       style="fill:#008000;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1321"
+       width="17.650408"
+       height="7.9483705"
+       x="228.86426"
+       y="192.21312" />
+    <rect
+       style="fill:#008000;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1323"
+       width="17.650438"
+       height="8.1439848"
+       x="228.86424"
+       y="200.16148" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:3.52777px;line-height:0.95;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="237.46326"
+       y="188.23749"
+       id="text1337"><tspan
+         id="tspan1335"
+         x="237.46326"
+         y="188.23749"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ffffff;stroke-width:0.264583">ZevenOS</tspan><tspan
+         x="237.46326"
+         y="191.58887"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ffffff;stroke-width:0.264583"
+         id="tspan1339">2.0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:0.85;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="237.56606"
+       y="196.69687"
+       id="text1343"><tspan
+         id="tspan1341"
+         x="237.56606"
+         y="196.69687"
+         style="fill:#ffffff;stroke-width:0.264583">ZevenOS</tspan><tspan
+         x="237.56606"
+         y="199.69548"
+         style="font-size:2.11667px;fill:#ffffff;stroke-width:0.264583"
+         id="tspan1345">3.0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:0.85;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="237.69833"
+       y="204.25833"
+       id="text1349"><tspan
+         id="tspan1347"
+         x="237.69833"
+         y="204.25833"
+         style="fill:#ffffff;stroke-width:0.264583">ZevenOS</tspan><tspan
+         x="237.69833"
+         y="207.25694"
+         style="font-size:2.11667px;fill:#ffffff;stroke-width:0.264583"
+         id="tspan1353">4.0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:0.85;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="237.72784"
+       y="235.58331"
+       id="text1359"><tspan
+         id="tspan1357"
+         x="237.72784"
+         y="235.58331"
+         style="fill:#ffffff;stroke-width:0.264583">ZevenOS</tspan><tspan
+         x="237.72784"
+         y="238.58192"
+         style="font-size:2.11667px;fill:#ffffff;stroke-width:0.264583"
+         id="tspan1361">6.0 (LTS)</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2.4;stroke-dasharray:0.264583, 0.793749;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Lend-8)"
+       d="M 258.73731,225.99589 H 247.04427"
+       id="path1365" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;line-height:0.85;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="269.18765"
+       y="226.93115"
+       id="text1837"><tspan
+         id="tspan1835"
+         x="269.18765"
+         y="226.93115"
+         style="font-size:2.11667px;stroke-width:0.264583">Ubuntu 14.04 LTS</tspan></text>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#path1365"
+       id="use1845"
+       transform="translate(0,-16.933338)"
+       width="100%"
+       height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;line-height:0.85;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="266.96451"
+       y="209.81453"
+       id="text1849"><tspan
+         id="tspan1847"
+         x="266.96451"
+         y="209.81453"
+         style="font-size:2.11667px;stroke-width:0.264583">Ubuntu 12.10</tspan></text>
+    <rect
+       style="fill:#008000;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1876"
+       width="17.650438"
+       height="16.694534"
+       x="228.86424"
+       y="208.30547" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:0.85;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="237.86014"
+       y="217.28906"
+       id="text1880"><tspan
+         id="tspan1878"
+         x="237.86014"
+         y="217.28906"
+         style="fill:#ffffff;stroke-width:0.264583">ZevenOS</tspan><tspan
+         x="237.86014"
+         y="220.28767"
+         style="font-size:2.11667px;fill:#ffffff;stroke-width:0.264583"
+         id="tspan1882">5.0</tspan></text>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use1845"
+       id="use1884"
+       transform="translate(0,-7.9375004)"
+       width="100%"
+       height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:0.85;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="266.74435"
+       y="201.52916"
+       id="text1888"><tspan
+         id="tspan1886"
+         x="266.74435"
+         y="201.52916"
+         style="font-size:2.11667px;stroke-width:0.264583">Ubuntu 11.10</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;line-height:0.85;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="266.67459"
+       y="193.52916"
+       id="text1892"><tspan
+         id="tspan1890"
+         x="266.67459"
+         y="193.52916"
+         style="font-size:2.11667px;stroke-width:0.264583">Ubuntu 10.10</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;line-height:0.85;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="266.14542"
+       y="186.05832"
+       id="text1904"><tspan
+         id="tspan1902"
+         x="266.14542"
+         y="186.05832"
+         style="font-size:2.11667px;stroke-width:0.264583">Ubuntu 9.10</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;line-height:0.85;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="266.16641"
+       y="178.58748"
+       id="text1908"><tspan
+         x="266.16641"
+         y="178.58748"
+         style="font-size:2.11667px;stroke-width:0.264583"
+         id="tspan1910">Ubuntu 8.10</tspan></text>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use1884"
+       id="use1914"
+       transform="translate(0,-8.4666671)"
+       width="100%"
+       height="100%" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use1914"
+       id="use1916"
+       transform="translate(0,-7.4083337)"
+       width="100%"
+       height="100%" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#use1916"
+       id="use1918"
+       transform="translate(0,-7.4083337)"
+       width="100%"
+       height="100%" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.793749;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 226.11969,113 h -25.35051 v 6.3 h -3.91904"
+       id="path2342" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:0.85;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="231.63835"
+       y="113.56126"
+       id="text2382"><tspan
+         id="tspan2380"
+         x="231.63835"
+         y="113.56126"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.264583">Knoppix</tspan></text>
+    <rect
+       style="fill:#ff8080;fill-opacity:1;stroke:#ff0000;stroke-width:0.264583;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect2386"
+       width="18.535217"
+       height="6.283854"
+       x="78.203056"
+       y="134.40833" />
+    <rect
+       style="fill:#ff8080;fill-opacity:1;stroke:#000000;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:0.265, 0.265;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect2518"
+       width="18.520832"
+       height="30.602858"
+       x="119.06245"
+       y="41.000004" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:0.85;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="128.46475"
+       y="55.746918"
+       id="text2522"><tspan
+         id="tspan2520"
+         x="128.46475"
+         y="55.746918"
+         style="fill:#ffffff;stroke-width:0.264583">BeOS</tspan><tspan
+         x="128.46475"
+         y="58.745522"
+         style="font-size:2.11667px;fill:#ffffff;stroke-width:0.264583"
+         id="tspan2524">development</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff8080;fill-opacity:1;stroke:#ff0000;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect7793"
+       width="18.535225"
+       height="5.1958385"
+       x="78.203056"
+       y="127.66666" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:0.65;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="87.742455"
+       y="129.81119"
+       id="text2390"><tspan
+         id="tspan2388"
+         x="87.742455"
+         y="129.81119"
+         style="font-size:2.11667px;fill:#ffffff;stroke-width:0.264583">BeOS 5 PE </tspan><tspan
+         x="87.742455"
+         y="132.10423"
+         style="font-size:2.11667px;fill:#ffffff;stroke-width:0.264583"
+         id="tspan7813">Max Edition 2</tspan></text>
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 87.544009,132.88698 v 1.52135"
+       id="path7815" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;line-height:1.05;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="87.444786"
+       y="137.08723"
+       id="text7819"><tspan
+         id="tspan7817"
+         x="87.444786"
+         y="137.08723"
+         style="font-size:2.11667px;fill:#ffffff;stroke-width:0.264583">BeOS 5 PE</tspan><tspan
+         x="87.444786"
+         y="139.30974"
+         style="font-size:2.11667px;fill:#ffffff;stroke-width:0.264583"
+         id="tspan7821">Max Edition 3</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff8080;fill-opacity:1;stroke:#ff0000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect8001"
+       width="18.535223"
+       height="6.0817709"
+       x="78.203056"
+       y="161" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:0.65;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="87.775528"
+       y="163.66666"
+       id="text8005"><tspan
+         id="tspan8003"
+         x="87.775528"
+         y="163.66666"
+         style="font-size:2.11667px;fill:#ffffff;stroke-width:0.264583">BeOS 5 PE</tspan><tspan
+         x="87.775528"
+         y="165.9597"
+         style="font-size:2.11667px;fill:#ffffff;stroke-width:0.264583"
+         id="tspan8007">Max Edition 4</tspan></text>
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 87.577082,140.75833 V 161"
+       id="path8009" />
+    <rect
+       style="opacity:1;fill:#ff8080;fill-opacity:1;stroke:#ff0000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect8017"
+       width="18.520828"
+       height="4.6822963"
+       x="99.483337"
+       y="122.52135" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:0.65;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="108.80989"
+       y="124.5526"
+       id="text8021"><tspan
+         id="tspan8019"
+         x="108.80989"
+         y="124.5526"
+         style="font-size:2.11667px;fill:#ffffff;stroke-width:0.264583">BeOS 5</tspan><tspan
+         x="108.80989"
+         y="126.84565"
+         style="font-size:2.11667px;fill:#ffffff;stroke-width:0.264583"
+         id="tspan8023">Developer Ed.</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff8080;fill-opacity:1;stroke:#ff0000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect8055"
+       width="18.520828"
+       height="4.4741836"
+       x="99.483337"
+       y="144.62582" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:0.6;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="108.51782"
+       y="146.44366"
+       id="text8059"><tspan
+         id="tspan8057"
+         x="108.51782"
+         y="146.44366"
+         style="font-size:2.11667px;fill:#ffffff;stroke-width:0.264583">BeOS 5</tspan><tspan
+         x="108.51782"
+         y="148.56033"
+         style="font-size:2.11667px;fill:#ffffff;stroke-width:0.264583"
+         id="tspan8061">Developer Ed. 2</tspan></text>
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 109.07269,127.12675 V 144.526"
+       id="path8063" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker8271)"
+       d="M 119.021,114.87244 H 108.8856 V 122.027"
+       id="path8065" />
+    <rect
+       style="opacity:1;fill:#ff8080;fill-opacity:1;stroke:#ff0000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect8365"
+       width="18.535217"
+       height="3.2740517"
+       x="78.203056"
+       y="122.82371" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;line-height:0.85;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="88.071991"
+       y="124.92846"
+       id="text8369"><tspan
+         id="tspan8367"
+         x="88.071991"
+         y="124.92846"
+         style="font-size:1.41111px;fill:#ffffff;stroke-width:0.264583">BeOS 5 PE Max Ed.</tspan></text>
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker8577)"
+       d="M 99.483332,124.74137 H 96.938"
+       id="path8383" />
+    <path
+       style="fill:none;stroke:#fa0000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker8775)"
+       d="M 108.8856,114.87244 H 98.128007 V 121 H 76.19186 v 9.12017 H 77.903"
+       id="path8765" />
+    <rect
+       style="opacity:1;fill:#ff8080;fill-opacity:1;stroke:#fa0000;stroke-width:0.272892;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect9005"
+       width="18.422104"
+       height="6.642519"
+       x="119.01744"
+       y="133.52107" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:0.85;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="128.22081"
+       y="137.31874"
+       id="text9012"><tspan
+         id="tspan9010"
+         x="128.22081"
+         y="137.31874"
+         style="font-size:2.11667px;fill:#ffffff;stroke-width:0.264583">PhosphurOS</tspan></text>
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker9030)"
+       d="m 140.59713,119.3 v 17.48958 h -2.55779"
+       id="path9020" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;line-height:0.85;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="150.65117"
+       y="116.65417"
+       id="text9226"><tspan
+         x="150.65117"
+         y="116.65417"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
+         id="tspan9228">BeOS 5.1 Dano leaked </tspan><tspan
+         x="150.65117"
+         y="118.45334"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
+         id="tspan9238">source derivatives</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:0.65;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="108.71165"
+       y="111.78645"
+       id="text9232"><tspan
+         id="tspan9230"
+         x="108.71165"
+         y="111.78645"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583">BeOS 5.0 PE</tspan><tspan
+         x="108.71165"
+         y="114.07951"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
+         id="tspan9234">binary derivatives</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;line-height:0.85;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="59.795849"
+       y="114.56458"
+       id="text9242"><tspan
+         id="tspan9240"
+         x="59.795849"
+         y="114.56458"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583">NewOS kernel</tspan><tspan
+         x="59.795849"
+         y="117.56319"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
+         id="tspan9244">based</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:0.85;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       x="130.45947"
+       y="17.212158"
+       id="text9248"><tspan
+         id="tspan9246"
+         x="130.45947"
+         y="17.212158"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583">BeOS family</tspan></text>
+  </g>
+</svg>

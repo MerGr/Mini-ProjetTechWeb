@@ -567,9 +567,11 @@ button:hover{
 }
 
 .chapter.gennineteen{
-    background-image: url(media/119.jpg);
+    background-image: url(media/macfooter.png);
+    background-position-y: 50%;
     font-family: 'San Francisco','Helvetica Neue','Lucida Grande','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
+    height: 100vh;
 }
 
 .txtcontent.seven.genthree, .txtcontent.seven.genfour, .txtcontent.seven.genfive, .txtcontent.seven.gensix{
