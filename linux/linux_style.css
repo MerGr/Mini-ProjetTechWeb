@@ -1,20 +1,10 @@
 @font-face {
-    font-family: 'FixedSys';
+    font-family: 'Unifont';
     font-style: normal;
     font-weight: 400;
     src: local(''),
-      url('fonts/fixedsys.woff') format('woff'),
-      url('fonts/fixedsys.ttf') format('ttf');
-}
-
-@font-face {
-    font-family: 'MS-sans-serif';
-    font-style: normal;
-    font-weight: 400;
-    src: local(''),
-      url('fonts/ms-sans-serif-1.woff') format('woff'),
-      url('fonts/ms-sans-serif-1.ttf') format('ttf');
-}
+      url('fonts/unifont.woff') format('woff');
+  }
 
 :root {
     --text-light: 0, 0, 0;
@@ -37,9 +27,6 @@ html[data-theme="light"] {
         --primary: var(--primary-light);
         --secondary: var(--secondary-light);
         --accent: var(--accent-light);
-        --window-one: white;
-        --window-two: #f5f6f8;
-        --eleven: url("media/win11lightwall.jpg");
 }
 
 html[data-theme="dark"] {
@@ -48,17 +35,17 @@ html[data-theme="dark"] {
         --primary: var(--primary-dark);
         --secondary: var(--secondary-dark);
         --accent: var(--accent-dark);
-        --window-one: black;
-        --window-two: #202020;
-        --eleven: url("media/win11darkwall.jpg");
 }
 
-body, #sidebar, .chapter, .blur, #deadspace{
-    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+body, #sidebar, .chapter,#deadspace, .quote, .window, .windowtwo, .windowthree{
     display: flex;
-    color: rgba(var(--text));
+    color: white;
     overflow-x: hidden;
     transition: color 1s;
+}
+
+body, #sidebar, #deadspace{
+    font-family:'CP437','Courier New', Courier, monospace;
 }
 
 body{
@@ -105,6 +92,7 @@ header:hover{
 }
 
 #sidebar:hover {
+    opacity: 1;
     transform: translateX(0%);
     transition: 0.5s;
     cursor: pointer;
@@ -160,13 +148,11 @@ a:hover img{
 
 h1{
     font-size: 10vw;
-}
-
-h1.zero{
     color: white;
 }
 
-h1.one{
+h1.two{
+    font-size: 8vw;
     color: black;
 }
 
@@ -194,6 +180,7 @@ h1.one{
 
 .media.header{
     padding: 3em 0 3em 0;
+    min-width: 30vw;
 }
 
 .txtcontent {
@@ -216,19 +203,22 @@ h1.one{
 
 .txtcontent > .left{
     float: left;
-    margin-right: 0;
-    max-width: 25vw;
+    margin-right: 20px;
+    margin-left: 0;
+    max-width: 20vw;
 }
 
 .txtcontent > .right{
     float: right;
-    margin-left: 0;
-    max-width: 25vw;
+    margin-left: 20px;
+    margin-right: 0;
+    max-width: 20vw;
 }
 
 .media.center{
     max-width: 70vw;
     max-height: 50vw;
+    min-width: 80%;
     align-self: center;
     display: inline-block;
 }
@@ -239,9 +229,8 @@ h1.one{
 
 .chapter.zero{
     background-color: black;
-    font-family: 'Times New Roman',Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
-
 
 .txtcontent.zero{
     background: black;
@@ -253,98 +242,86 @@ h1.one{
     margin: 10px;
 }
 
+.media.header.zero{
+    border: none;
+    width: 10em;
+}
+
 .chapter.one{
-    background-color: #55ff55;
-    font-family: 'FixedSys' ,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    background: black;
+    color: white;
 }
 
 .txtcontent.one{
-    background: white;
-    color: black;
-    border: 20px solid #797ae8;
+    background: black;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 10px 10px black;
     text-align: left;
 }
 
 
 .media.one{
-    background: #ffff55;
+    padding: 0;
+    border: 2px solid black;
+    box-shadow: 10px 10px black;
+}
+
+.usr{
+    color: lightgreen;
+    font-weight: bolder;
+}
+
+.quote{
+    text-align: center;
+    flex-direction: column;
 }
 
 .chapter.two{
-    background-color: #55aaaa;
-    font-family: 'MS-sans-serif' ,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    background: linear-gradient(to top, #525a67, #bfc7dc);
+    font-family: 'Unifont','Courier New', Courier, monospace;
+}
+
+.chapter.three{
+    background: black;
+    font-family: 'Unifont','Courier New', Courier, monospace;   
+}
+
+.chapter.four{
+    background: linear-gradient(to bottom right, #01b4a7, #018080);
+    font-family: 'Unifont','Courier New', Courier, monospace;   
+}
+
+.window{
+    padding: 30px 5px 5px 5px;
+    background-color: #e7ac82;
+    border: 3px outset #d5b08e;
+    background-attachment: fixed;
+    margin-bottom: 10em;
+}
+
+.windowtwo{
+    padding: 30px 5px 5px 5px;
+    background-color: #b13060;
+    border: 3px outset silver;
+    background-attachment: fixed;
+    margin-bottom: 10em;
+}
+
+.windowthree{
+    max-width: 70vw;
+    padding: 30px 5px 5px 5px;
+    background-color: #d6ceb9;
+    border: 3px outset silver;
+    background-attachment: fixed;
+    margin-bottom: 10em;
+    margin-top: 10em;
 }
 
 .txtcontent.two{
     background: white;
-    color: black;
-    border: 10px ridge #c3c7cb;
-    text-align: left;
-}
-
-.media.two{
-    background: #0000aa;
-}
-
-.chapter.three, .chapter.four{
-    background-color: #008080;
-    font-family: 'MS-sans-serif' ,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
-}
-
-.txtcontent.three, .txtcontent.four{
-    background: #ffffe1;
-    color: black;
-    border: 5px ridge #7e7e7e;
-    text-align: left;
-}
-
-.media.three, .media.four{
-    background: #0000aa;
-}
-
-.chapter.five{
-    background-image: url("media/bliss.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: 'Tahoma' ,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
-}
-
-.txtcontent.five{
-    background: white;
-    color: black;
-    border: 6px groove #245ddc;
-    border-top-width: 40px;
-    border-top-style: solid;
-    text-align: left;
-    border-radius: 6px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
-    font-size: 18px;
-}
-
-.media.five{
-    border: 5px ridge #245ddc;
-    padding: 0;
-    border-radius: 3px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
-}
-
-button{
-    border-radius: 50%;
-    display: inline;
-    padding: 5em;
-    background: linear-gradient(to bottom right, red 0% , darkred);
-    border: 3px ridge darkred;
-}
-
-.chapter.six{
-    background-image: url("media/vistawall.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
-}
-
-.txtcontent.six{
-    background: white;
+    border: 3px inset silver;
+    box-shadow: none;
     color: black;
     text-align: left;
     border-radius: 3px;
@@ -353,8 +330,58 @@ button{
     font-size: 18px;
 }
 
-.media.six{
+.txtcontent.three{
+    background: white;
+    border: 3px inset #f6b8b5;
+    box-shadow: none;
+    color: black;
+    text-align: left;
+    border-radius: 3px;
+    width: max-content;
+    margin: 0;
+    font-size: 18px;
+}
+
+.txtcontent .window, .txtcontent .windowtwo, .txtcontent .windowthree{
+    width: fit-content;
+    border: 0;
+    margin: auto;
+}
+
+
+.window > .media{
+    border: 3px inset #f6b8b5;
+    border-radius: 0;
+    margin: 0;
     padding: 0;
+    box-shadow: none;
+    width: 100%;
+}
+
+.windowtwo > .media, .windowthree > .media{
+    border: 3px inset silver;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    width: 100%;
+}
+
+button{
+    border-radius: 5px;
+    display: inline;
+    padding: 5em;
+    background: white;
+    border: 1px solid black;
+    box-shadow: 0 0 3px black;
+}
+
+button a{
+    color: black;
+}
+
+button:hover{
+    background: lightgrey;
 }
 
 .blur{
@@ -370,118 +397,6 @@ button{
 
 .blur > .media{
     width: 100%;
-}
-
-.txtcontent .blur{
-    width: fit-content;
-    margin: 10px;
-}
-
-.chapter.seven{
-    background-image: url("media/win7wall.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
-}
-
-.txtcontent.seven{
-    background: white;
-    color: black;
-    text-align: left;
-    border-radius: 3px;
-    width: max-content;
-    margin: 0;
-    font-size: 18px;
-}
-
-.media.seven{
-    padding: 0;
-}
-
-.chapter.eight{
-    background-image: url("media/win8wall.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
-}
-
-.txtcontent.eight{
-    background: white;
-    color: black;
-    text-align: left;
-    border-radius: 3px;
-    width: max-content;
-    margin: 0;
-    font-size: 18px;
-}
-
-.media.eight{
-    padding: 0;
-}
-
-.blur.eight{
-    background: #69afe9;
-}
-
-.chapter.nine{
-    background-image: url("media/win10wall.jpeg");
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
-}
-
-.txtcontent.nine{
-    background: var(--window-one);
-    color: rgb(var(--text));
-    text-align: left;
-    border-radius: 3px;
-    width: max-content;
-    margin: 0;
-    font-size: 18px;
-}
-
-
-.media.nine{
-    padding: 0;
-}
-
-.blur.nine{
-    background: var(--window-two);
-}
-
-.chapter.ten{
-    background-image: var(--eleven);
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
-}
-
-.txtcontent.ten{
-    background: var(--window-one);
-    color: rgb(var(--text));
-    text-align: left;
-    border-radius: 3px;
-    width: max-content;
-    margin: 0;
-    font-size: 18px;
-}
-
-.media.ten{
-    padding: 0;
-}
-
-.blur.ten{
-    border-radius: 10px;
-    background: rgba(0, 0, 0, .3);
-    backdrop-filter: blur(10px);
-}
-
-.blur.header.ten{
-    margin-bottom: 3em;
-    justify-content: center;
-    padding-bottom: 1.5em;
-    margin-top: 3em;
-    border-radius: 10px;
 }
 
 ::-webkit-scrollbar {
@@ -516,7 +431,7 @@ button{
     transform: translateX(0);
 }
 
-.txtcontent > .media:hover, .txtcontent > .blur:hover{
+.txtcontent > .media:hover, .txtcontent > .window:hover, .txtcontent > .windowtwo:hover, .txtcontent > .windowthree:hover{
     transform: scale(1.05);
     transition: 0.5s;
     cursor: pointer;

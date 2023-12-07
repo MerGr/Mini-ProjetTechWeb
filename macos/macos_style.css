@@ -121,7 +121,14 @@ header{
     background: rgba(var(--background), 1);
     border: 3px outset rgb(var(--accent));
     z-index: 10;
-    transition: all 1s;
+    opacity: 20%;
+    transition: opacity 5s;
+}
+
+header:hover{
+    background-color: rgb(var(--accent));
+    opacity: 1;
+    transition : 0.5s;
 }
 
 #sidebar{
@@ -138,8 +145,8 @@ header{
     box-shadow: 5px 3px 3px #DDDDDD33;
     background: radial-gradient(circle at center, rgba(var(--primary), .8), rgba(var(--accent), 1) 100%);
     z-index: 10;
-    transition: background 1s;
-    transition: 0.5s;
+    opacity: 20%;
+    transition: opacity 5s, transform 0.5s;
 }
 
 #sidebar:hover {

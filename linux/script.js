@@ -42,6 +42,8 @@ const observer = new IntersectionObserver((entries) => {
             entry.target.classList.remove('show');
         }
     });
+}, {
+    threshold: 0.1
 });
 
 const hiddenelmts = document.querySelectorAll('.hidden');
