@@ -1,12 +1,14 @@
 // Sidebar mobile click outside
 
-window.addEventListener('mouseup',function(event){
-        var bar = document.getElementById('sidebar');
-        if(event.target != bar && event.target.parentNode != bar){
-            bar.style.transform = 'translateX(-50%)';
-        }
-  });  
-
+var touchmobile = window.matchMedia('(hover: none), (touch:coarse), (hover: on-demand), (-moz-touch-enabled:1), (max-width: 768 px)');
+if (touchmobile.matches){
+	window.addEventListener('mouseup',function(event){
+		var bar = document.getElementById('sidebar');
+		if(event.target != bar && event.target.parentNode != bar){
+		    bar.style.transform = 'translateX(-50%)';
+		}
+	  });  
+}
 // Theme switcher
 
 var toggle = document.getElementById("themebttn");

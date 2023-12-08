@@ -1,3 +1,29 @@
+@media (hover: none), (touch:coarse), (hover: on-demand), (-moz-touch-enabled:1), (max-width: 768 px) {
+    #sidebar{
+        border: 3px hidden;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+        position: fixed;
+        overflow: hidden;
+        flex-direction: column;
+        top: 25vh;
+        width: auto;
+        transform: translateX(-50%);
+        height: 50%;
+        box-shadow: 5px 3px 3px #DDDDDD33;
+        background: radial-gradient(circle at center, rgba(var(--primary), .8), rgba(var(--accent), 1) 100%);
+        z-index: 10;
+        opacity: 20%;
+        transition: opacity 5s, transform 0.5s;
+    }
+
+    #sidebar:active{
+        opacity: 1;
+        transform: translateX(0%);
+        transition: 0.5s;   
+    }
+}
+
 @font-face {
     font-family: 'Amiga4ever';
     font-style: normal;
