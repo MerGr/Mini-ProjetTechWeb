@@ -1,3 +1,12 @@
+// Sidebar mobile click outside
+
+window.addEventListener('mouseup',function(event){
+        var bar = document.getElementById('sidebar');
+        if(event.target != bar && event.target.parentNode != bar){
+            bar.style.transform = 'translateX(-50%)';
+        }
+  });  
+
 // Theme switcher
 
 var toggle = document.getElementById("themebttn");
