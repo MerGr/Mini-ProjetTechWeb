@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-GB" data-theme="light">
+<head>
+    <meta charset="utf-8" />
+    <title>linux - KronoOS</title>
+    <link rel="stylesheet" href="position.css" />
+    <script src="postion.js" defer></script>
+    <link rel="icon" href="favicon.ico" />
+    
+</head>
+<body>
+    <header id="HeaderLogo">
+        <a href="index.html">
+            <img src="./media/tmplogo.png" id="navbarlogo" alt="temp logo">
+        </a>
+    </header>
+    <nav id="sidebar">
+        <ul>
+            <li class="navoption win"><a href="win/win.html"><img src="win_white.png" alt="Windows Logo"></a></li>
+            <li class="navoption mac"><a href="macos/macos.html"><img src="macos_light.png" alt="MacOS Logo"></a></li>
+            <!--        linux                 -->
+            <li class="navoption linux" onmouseover="showSubmenu('submenu1')" onmouseout="hideSubmenu('submenu1')">
+                <a href="linux/linux.html">
+                    <img src="linux.png" alt="Linux Logo">
+                </a>
+            </li>
+            <!--        linux           -->
+            <button class="themebttn" onclick="toggleTheme()"> Theme</button>
+        </ul>
+    </nav>
+     <!--    le menu afficher apres hover sur linux    -->
+    <div class="vertical-bar" id="submenu1">
+        
+            <li><a href="chapitre2">chapitre 1</a></li>
+            <li><a href="chapitre3">chapitre 2</a></li>
+            <li><a href="chapitre4">chapitre 3</a></li>
+            <li><a href="chapitre5">chapitre 4</a></li>
+            <li><a href="chapitre6">chapitre 5</a></li>
+        </ul>
+    </div>
+    <!---     le contuneu     -->
+    <div class="container" id="infinite-scroll">
+        <div id="chapitre 1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam similique modi nihil dolor placeat minus recusandae, neque, rerum fugiat obcaecati repellat perferendis fuga quia provident facilis eum amet nesciunt deleniti.</p></div>
+        <div id="chapitre 2"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, assumenda recusandae fuga obcaecati asperiores perferendis consectetur dolorum rem iusto labore veniam consequuntur nemo odio quod impedit. Repudiandae quo dolorum sequi.</p></div>
+        <div id="chapitre 3"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto delectus voluptate eaque laborum beatae omnis natus dicta expedita corrupti, quae impedit dolore non laudantium? Dolore repellendus enim saepe ipsam dolorum.</p></div>
+        <div id="chapitre 4"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, earum. A quasi dolor dolores vitae. Mollitia debitis, porro ut qui corporis perspiciatis repellendus est, non voluptas minus, nihil atque eos.</p></div>
+        <div id="chapitre 5"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quasi ad quidem, harum optio veritatis, totam alias dolores deleniti ex dolorem iusto repellendus officiis itaque voluptates eos! Cum, magni officiis!</p></div>
+    </div>
+    
+
+</body>
+</html>

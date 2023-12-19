@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en-GB" data-theme="light">
+<head>
+    <meta charset="utf-8" />
+    <title>linux - KronoOS</title>
+    <link rel="stylesheet" href="lin.css" />
+    <script src="lin.js" defer></script>
+    <link rel="icon" href="favicon.ico" />  
+</head>
+<body>
+    <header id="HeaderLogo">
+        <a href="../index.html">
+            <h1 id="navbarlogo">o‿OS</h1>
+        </a>
+    </header>
+    <nav id="sidebar">
+        <ul>
+            <li class="navoption win"><a href="win/win.html"><img src="win_white.png" alt="Windows Logo"></a></li>
+            <li class="navoption mac"><a href="macos/macos.html"><img src="macos_light.png" alt="MacOS Logo"></a></li>
+            <!--        linux                 -->
+            <li class="navoption linux" onmouseover="showSubmenu('submenu1')" onmouseout="hideSubmenu('submenu1')">
+                <a href="lin.html">
+                    <img src="linux.png" alt="Linux Logo">
+                </a>
+            </li>
+            <!--        linux           -->
+            <button class="themebttn" onclick="toggleTheme()"> Theme</button>
+        </ul>
+    </nav>
+     <!--    le menu afficher loseque on survole sur le icone linux  -->
+     <div class="vertical-bar" id="submenu1" onmouseover="keepVerticalBarVisible()" onmouseout="hideVerticalBar()">
+    <ul>
+        <li><a href="#chapitre1" >chapitre 1</a></li>
+        <li><a href="#chapitre2" >chapitre 2</a></li>
+        <li><a href="#chapitre3" >chapitre 3</a></li>
+        <li><a href="#chapitre4">chapitre 4</a></li>
+        <li><a href="#chapitre5" >chapitre 5</a></li>
+        <li><a href="#chapitre6" >chapitre 6</a></li>
+        <li><a href="#quizButton"> Quiz</a></li>
+    </ul>
+    </div>
+    <!---     le contuneu     -->
+    <div class="container" id="infinite-scroll">
+        <div id="chapitre1">
+            <marquee direction="right"><h1>The Unix Operating System</h1></marquee>
+            <div class="content1">
+                <div class="left">
+                <img src="img1.jpg" alt="image" width="200px">
+                <p>Unix is a powerful and influential operating system that has shaped the computing landscap since its creation in the late 1960s by Ken Thompson, Dennis Ritchie, and others at Bell Labs. Dennis Ritchie, and others at Bell Labs. It's characterized by its design principles that prioritize simplicity, modularity, and a "do one thing and do it well" philosophy. Key aspects of Unix include:</p>
+            </div>
+            <div class="right">
+
+                <p>Hierarchical File System: Unix organizes files in a hierarchical directory structure, where everything is treated as a file. Multiuser and Multitasking: Unix was one of the earliest operating systems to suppor</p>
+                <img src="image2.png" alt="linux">
+            </div>
+            <p>pabilities built-in from the start, enabling seamless communication between computers. Security: Unix emphasizes security, implementing a permission system that controls access to files and resources. Variants of Unix include the original AT&T Unix, BSD (Berkeley Software Distribution), Linux (Unix-like, not Unix itself but heavily inspired by Unix), and others. Linux, while not Unix, is Unix-like and has gained immense popularity due to its open-source nature and flexibility. Unix's influence extends beyond its direct usage; its principles have heavily influenced many other operating systems, including Linux, macOS (which is Unix-based), and even Windows through features like the Windows Subsystem for Linux. Its legacy is vast, and despite the evolution of computing, many of its core concepts and philosophies continue to shape modern operating systems and software development practices.
+            </p>
+            </div>
+          
+            </div>
+            
+        <div id="chapitre2">
+            <marquee direction="right"><h1>BIRTH<h1></h1></marquee>
+            <div class="content2">
+                <div class="left">
+                    <img src="birth.jpg" id="img2"   alt="image">
+                    <p>The GNU kernel still being incomplete and the lack of a widely adopted free kernel to drive his new
+                        80386 processor PC, Computer Science student Linus Torvalds began the work on his own kernel at the age of 25.
+                        
+                        The first publicly released Linux was version *0.01* in 1991, described as a free minix-like kernel for the intel 386 architecture for personal computers.</p>
+                </div>
+                    <p>Minix (mini Unix) is another Unix-like system, created by Andrew S. Tanenbaum for educational purposes. However, despite the source code being available, it restricted modification and distribution.
+
+                        It was also the operating system that Linus used to create the first release of Linux.
+                        
+                        *0.01* is considered a historical release today, but at the time it only supported a subset of hardware features, namely: the harddisk, screen, keyboard and serial lines, as well as missing some systemcall implementations such as mount and umount for example.
+                        Since it's inception, Linux has made use of the GNU suite of tools to achieve functionality. This led the two projects to grow in tandem as each side seeked to create a fully functional operating system, this time with focus on Linux as the kernel.</p>
+                        
+                        <img src="linux-debut.png" width="800px" alt="Linux announcing Linux for the first time on Minix forums"  />
+            </div>
+        </div>
+            
+        <div id="chapitre3">
+            
+            <h1>distributions</h1>
+            <marquee direction="right"><h1>UBUNTU</h1></marquee>
+            <div class="content3">
+                <div class="left">
+                <p>Ubuntu is a popular open-source Linux-based operating system. It's known for its ease of use, regular releases, and strong community support. Ubuntu is developed and maintained by Canonical Ltd. and is based on the Debian architecture. Open Source: Ubuntu is free and open-source, meaning its source code is freely available for anyone to modify, distribute, and use.
+                  Desktop and Server Versions: Ubuntu offers both desktop and server versions. The desktop version is user-friendly and comes with a graphical interface suitable for personal and office use, while the server version is optimized for server environments and doesn't include a graphical interface by default. Regular Releases: Ubuntu follows a predictable</p>
+                <img src="ubu.jpg" width="200px" alt="ubuntu">
+                </div>     
+                <p>Ubuntu Variants: Apart from the base version of Ubuntu, there are variants that integrate different desktop environments such as KDE, Xfce, LXQt, and more. These variants are designed to cater to various performance needs, system resources, and user interface preferences.
+
+                    Included Software: Ubuntu comes with a wide range of pre-installed software for immediate use. It includes desktop applications like web browsers, email software, office suites, media players, and more.
+                    
+                    Software Center: Ubuntu features a built-in software center called the</p><p> "Ubuntu Software Center," allowing users to easily browse, install, and update additional applications.
+                    
+                    Long-Term Support (LTS): Some versions of Ubuntu are marked as LTS. These versions receive long-term support in terms of security updates and stability, which is particularly important for businesses and professional environments.
+                    
+                    Snap Packages: Ubuntu offers a technology called "Snaps" that enables developers to distribute software as standalone, self-contained packages, independent of the system, with all their dependencies included. This simplifies software installation and maintenance.
+                    
+                    Community-Driven: Ubuntu's development is backed by a large global community of contributors, developers, and users actively involved in its improvement, issue resolution, and feature creation.
+                    
+                    Servers and Cloud: Ubuntu is also highly popular for servers, cloud deployments, and virtual machines due to its stability, extensive hardware support, and regular updates.</p>
+                    <button  id="animatedButton" type="button" class="media hidden right"><a href="https://malisipi.github.io/ubuntu-tour/" target="_blank">Try Ubuntu!</a></button>
+            </div>
+        </div>
+        <div id="chapitre4">
+            <marquee direction="right"><h1>KALI</h1></marquee>
+            <div class="content4">
+            <p>Kali Linux is a specialized Linux distribution designed primarily for cybersecurity and penetration testing purposes. It's developed and maintained by Offensive Security, a leading organization in the field of information security training and tools. Key features of Kali Linux include:
+                 </p>
+                 <img src="kali2.jpg" alt="kali" width="550px" height="200px">
+                 <p>Penetration Testing Tools: Kali Linux comes pre-installed with numerous penetration testing and ethical hacking tools. These tools are used by cybersecurity professionals and ethical hackers to assess network security, discover vulnerabilities, and test the security of systems and applications. Focused Security Testing: Kali Linux provides a wide array of tools for various security testing purposes, including network scanning, vulnerability assessment, exploitation, forensics, reverse engineering, and more. These tools are categorized and available within the distribution for easy access. Customization and Flexibility: Users have the ability to customize Kali Linux to suit their specific needs, adding or removing tools, configuring the environment, and tailoring it for different security testing scenarios. Security and Updates: Kali Linux emphasizes security by regularly updating its tools and packages to ensure they are up-to-date with the latest security patches and improvements. Community and Support: There's an active community around Kali Linux that provides support, tutorials, and documentation, making it easier for users to get started with security testing and ethical hacking.</p>
+           </div>
+        </div>
+        <div id="chapitre5">
+            <marquee direction="right"><h1>DEBIAN</h1></marquee>
+            <div class="content5">
+             <p>Debian est l'une des distributions Linux les plus anciennes et les plus respectées. C'est un système d'exploitation entièrement composé de logiciels libres, développé par une communauté de bénévoles du monde entier. Voici quelques points clés sur Debian : Stabilité et Fiabilité : Debian est célèbre pour sa stabilité. Sa méthode rigoureuse de test et de validation des logiciels avant leur intégration dans les versions stables assure une grande fiabilité.</p>
+            <div class="left">
+                <img src="dubian.png" alt="image">
+                <p>Philosophie du Logiciel Libre : Debian est profondément attachée aux principes du logiciel libre, favorisant la liberté d'utilisation, de modification et de distribution des logiciels. Gestionnaire de Paquets : Debian utilise le gestionnaire de paquets APT (Advanced Package Tool) pour la gestion des logiciels. Cela facilite l'installation, la mise à jour et la suppression des logiciels.
+                    Architecture Polyvalente : Debian prend en charge plusieurs architectures matérielles, ce qui lui permet de fonctionner sur une variété de systèmes, des ordinateurs personnels aux serveurs, et même sur des appareils embarqués. Branches : Debian propose plusieurs branches,</p>
+            </div>
+            <p>notamment la branche "stable" (stabilisée), "testing" (en phase de test), et "unstable" (en développement constant). La version "stable" est recommandée pour les utilisateurs à la recherche de fiabilité</p>
+            <div class="right">
+                <img src="du2.png" width="90px" >
+                <p>Communauté Active : Debian est développée et maintenue par une communauté mondiale de bénévoles et de contributeurs. Cette collaboration est une des forces de Debian. Logiciels Inclus : Debian offre un large éventail de logiciels provenant de son référentiel, couvrant diverses catégories et domaines d'application. Utilisation comme Base : De nombreuses distributions populaires telles qu'Ubuntu, Linux Mint, et d'autres sont basées sur Debian. Ces distributions reprennent les fondations solides de Debian pour construire leur propre expérience utilisateur.</p>
+               
+            </div>
+        </div>
+        </div>
+        <div id="chapitre6">
+            <marquee direction="right"><h1>Red Hat</h1></marquee>
+            <div class="content6">
+            <div class="left">
+                <img src="What-is-redhat.jpg" alt="red hat">
+                <p>Red Hat est une entreprise de logiciels informatiques bien connue, principalement célèbre pour sa distribution Linux appelée Red Hat Enterprise Linux (RHEL). Voici quelques points clés à connaître sur Red Hat : Red Hat Enterprise Linux (RHEL) : C'est une distribution Linux destinée aux entreprises. RHEL est reconnue pour sa stabilité,
+
+                    sa sécurité et son support à long terme. Elle est utilisée dans de nombreux environnements professionnels et serveurs. Modèle d'Affaires : Red Hat suit un modèle d'affaires basé sur l'open</p>
+            </div>
+            <p>source. Bien que RHEL soit une distribution payante, la plupart de ses composants sont open source et disponibles gratuitement dans des distributions dérivées telles que</p>
+            <img src="red3.png" width="750px">
+            <p>Technique : Red Hat offre un support technique complet pour RHEL, ce qui est un avantage crucial pour de nombreuses entreprises qui ont besoin d'un support professionnel pour leurs infrastructures informatiques. Solutions Entreprise : Outre RHEL, Red Hat propose une variété de solutions logicielles pour les entreprises, notamment dans les domaines du cloud computing, de la virtualisation, des conteneurs et de la gestion des données. Contributions Open Source : Red Hat est un contributeur majeur au mouvement open source. La société a une longue histoire de participation à de nombreux projets open source et elle soutient activement le développement communautaire. Acquisition par IBM : En 2019, IBM a acquis Red Hat pour l'une des plus grandes acquisitions de l'histoire de l'industrie technologique. Cette acquisition a renforcé la position d'IBM dans le secteur du cloud computing et des logiciels open source.</p>
+
+           </div>
+        </div>
+       
+        <div class="quiiz">
+        <button id="quizButton">Start Quiz</button>
+			
+        <div class="quiz-container" style="display: none;">
+            <div class="question">
+              <h2 id="question">What does the acronym 'GNU' stand for in Linux?</h2>
+              <ul>
+                <li>
+                  <input type="radio" name="answer" id="answer1">
+                  <label for="answer1" id="choice1">GNU's Not Unix</label>
+                </li>
+                <li>
+                  <input type="radio" name="answer" id="answer2">
+                  <label for="answer2" id="choice2">Global Network University</label>
+                </li>
+                <li>
+                  <input type="radio" name="answer" id="answer3">
+                  <label for="answer3" id="choice3">Graphical Networking Utility</label>
+                </li>
+                <li>
+                  <input type="radio" name="answer" id="answer4">
+                  <label for="answer4" id="choice4">General Network Usage</label>
+                </li>
+              </ul>
+            </div>
+            <button id="submit">Submit</button>
+            <div class="results" id="results"></div>
+          </div>
+          
+          <video id="gift-video" width="1000px" style="display: none" controls>
+            <source src="video.mp4" type="video/mp4">
+            
+          </video>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

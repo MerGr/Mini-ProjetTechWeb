@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>linux</title>
+  <style>
+    /* Styles pour l'aside */
+    .sidebar {
+      position: fixed;
+      top: 0;
+      right: -250px; /* Initial hidden position */
+      width: 250px;
+      height: 100%;
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+      transition: right 0.3s ease; /* Animation de transition */
+      overflow-y: auto; /* Scroll si nécessaire */
+    }
+
+    /* Affichage de l'aside en mode ouvert */
+    .sidebar.active {
+      right: 0;
+    }
+
+    /* Styles pour le bouton d'activation */
+    .toggle-button {
+      position: fixed;
+      top: 50px;
+      right: 50px;
+      background-color: #333;
+      color: white;
+      padding: 10px 20px;
+      cursor: pointer;
+      z-index: 999;
+    }
+
+    /* Styles pour la liste de l'aside */
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .sidebar li {
+      padding: 10px 0;
+    }
+    .mode-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px 20px;
+      background-color: #333333;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease; /* Animation de transition pour le bouton */
+    }
+    .dark-mode {
+      background-color: #111;
+      color: white;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Bouton pour ouvrir l'aside -->
+  <div class="toggle-button" onclick="toggleAside()">start</div>
+
+
+  <div class="sidebar" id="sidebar">
+    <ul>
+        <li><a href="#">chapitre 2</a></li>
+        <li><a href="#">chapitre 3</a></li>
+        <li><a href="#">chapitre 4</a></li>
+        <li><a href="#">chapitre 5</a></li>
+        <li><a href="#">chapitre 6</a></li>
+    </ul>
+  </div>
+  <button class="mode-button" onclick="toggleMode()">Dark / Light</button>
+
+  <p>kskkk Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error quo consectetur sequi officia quos odit facere fugit. Natus voluptatum vitae a ullam ad error nostrum, facilis tempora quaerat unde nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate similique, suscipit nemo unde qui molestiae quisquam labore deserunt enim alias corporis nobis odio harum, necessitatibus asperiores expedita eligendi minima esse. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo nulla sequi ut, assumenda sapiente est fuga debitis! Magnam itaque sint exercitationem perspiciatis ex id amet? Cupiditate quam tempora maiores ut! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint magni minus aut hic sunt. Autem velit ducimus sapiente minima corporis explicabo voluptate quisquam. Ipsum dicta odit, deserunt ut nisi sint?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque quia modi facilis. Sequi nam qui quidem consectetur quas temporibus vel soluta id ipsa! Ipsum nulla molestiae pariatur deleniti rem praesentium?Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit accusamus, consectetur dolore illo molestias quod eum at dignissimos saepe repudiandae ad provident commodi nemo sapiente nesciunt aperiam ex id Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, iure. Nesciunt sunt rerum suscipit magni, harum dolores. Voluptatibus id, enim cumque consequuntur repellendus libero cupiditate aperiam eaque facilis dolorem ipsam.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores odit nostrum veniam sint deserunt. A, ea facere facilis nisi nostrum vel eaque, perferendis rerum culpa, saepe blanditiis. Ipsum, odit earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, rem perferendis. Alias vel sit quasi fuga optio reiciendis dolorum delectus dicta, tempora aut aspernatur pariatur facilis? Mollitia eius suscipit deserunt? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea sunt accusamus aperiam rerum saepe atque esse velit, ipsam alias eligendi incidunt neque ratione suscipit laudantium officiis corrupti, modi culpa voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci vitae eveniet provident odio aut at facere id cumque quas nesciunt ratione temporibus eligendi facilis repudiandae ea ipsum fugiat, impedit odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae vitae recusandae totam debitis sequi tempore soluta minima incidunt. Et dolores porro officia debitis facilis numquam maiores sunt vitae sit ea. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero temporibus, ipsum laboriosam hic inventore officiis praesentium mollitia optio dolorum, sequi, magnam assumenda aperiam consectetur minima repellendus excepturi illo unde autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem exercitationem ipsam alias, optio magni, dolor eveniet nihil aspernatur voluptatibus repudiandae officiis unde iusto quos saepe aliquid deleniti dolorem, natus maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ex itaque accusantium maiores autem, consectetur nostrum unde voluptatem ipsa ipsum quaerat iure sapiente odit cum cupiditate, animi voluptas ab? Vitae.</p>
+
+  <script>
+    function toggleAside() {
+      const sidebar = document.getElementById('sidebar');
+      sidebar.classList.toggle('active');
+    }
+    function toggleMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+</body>
+</html>

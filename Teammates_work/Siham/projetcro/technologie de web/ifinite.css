@@ -1,0 +1,12 @@
+body{
+    background-color: azure;
+}
+.container{
+    justify-content: space-around;
+}
+.item{
+width: 60%;
+height: 300px;
+background-color: crimson;
+margin: 20px;
+}

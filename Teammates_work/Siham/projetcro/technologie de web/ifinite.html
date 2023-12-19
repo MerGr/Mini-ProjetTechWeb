@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="ifinite.css" />
+    </head>
+     <body>
+        <h1>SCROOLTIME</h1>
+        <div class="container">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">4</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div> 
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">4</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>  
+        </div>
+        <script>
+            const container = document.querySelector('.container');
+    
+            window.addEventListener('scroll', () => {
+                const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
+                if (scrollTop + clientHeight >= scrollHeight) {
+                    console.log("Touche le bas de la page !");
+                    addArticles(10); // Appel de la fonction pour ajouter de nouveaux éléments
+                }
+            });
+    
+            const addArticles = index => {
+                for (let i = 0; i < index; i++) {
+                    const item = document.createElement('div');
+                    item.setAttribute('class', 'item'); // Corrigez 'calss' en 'class'
+                    container.appendChild(item);
+                }
+            }
+        </script>
+     </body>
+
+</html>

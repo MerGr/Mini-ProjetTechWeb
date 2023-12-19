@@ -1,0 +1,483 @@
+:root {
+    --text-light: 0, 0, 0;
+    --background-light: 245, 239, 229;
+    --primary-light: 190, 39, 19;
+    --secondary-light: 249, 229, 190;
+    --accent-light: 213, 140, 21;
+
+    --text-dark: 255, 255, 255;
+    --background-dark: 26, 20, 10;
+    --primary-dark: 236, 85, 65;
+    --secondary-dark: 65, 46, 6;
+    --accent-dark: 234, 160, 42;
+}  
+
+@media (prefers-color-scheme: light) {
+    html {
+        --text: var(--text-light);
+        --background: var(--background-light);
+        --primary: var(--primary-light);
+        --secondary: var(--secondary-light);
+        --accent: var(--accent-light);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        --text: var(--text-dark);
+        --background: var(--background-dark);
+        --primary: var(--primary-dark);
+        --secondary: var(--secondary-dark);
+        --accent: var(--accent-dark);
+    }
+}
+
+body, #sidebar, .infobox, .chapbar{
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    color: rgba(0, 0, 0);
+}
+
+body{
+    background-color: grey;
+    flex-direction: column;
+
+}
+
+header{
+    top: 5px;
+    left: 10px;
+    position: fixed;
+    border-radius: 50px;
+    background: rgb(226, 194, 139);
+    border: 3px outset rgb(213, 140, 21);
+    z-index: 10;
+    opacity: 20%;
+    transition: opacity 5s;
+}
+#navbarlogo{
+    background: -webkit-linear-gradient(bottom right, rgba( 0, 0, 0) 0%, rgba( 213, 140, 21) 50%,rgba(var(--primary)) 95%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    padding: 5px;   
+}
+
+header:hover{
+    background-color: rgb(var(--accent));
+    opacity: 1;
+    transition : 0.5s;
+}
+#sidebar {
+    border: 3px hidden;
+    border-radius: 6px;
+    position: fixed;
+    overflow: hidden;
+    flex-direction: column;
+    top: 25vh;
+    left: -5px;
+    height: 50%;
+    background: radial-gradient(circle at center, rgba(var(--primary), .8), rgba(var(--accent), 1) 100%);
+    width: 10px;
+    transition: width 0.5s ease;
+}
+
+
+
+
+#sidebar:hover {
+    width: auto;
+}
+
+#sidebar ul{
+    flex-direction: column;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    color: rgba(var(--text));
+    font-size: 20px;
+}
+
+img{
+    padding: 10px 10px 10px 10px;
+}
+
+.navoption img{
+    width: 40px;
+}
+
+a:hover img{
+    background-color: rgba(var(--accent), .3);
+    border-radius: 10px;
+}
+
+a:hover{
+    color: rgba(var(--background));
+}
+  
+  /* Styles pour les barres verticales */
+  .vertical-bar {
+    display: none;
+    width: 100px;
+    background: radial-gradient(circle at center, rgba(var(--primary), .8), rgba(var(--accent), 1) 100%);
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0;
+    left: 100px; /* La position est déterminée par la largeur de la sidebar */
+    height: 500px;
+    overflow-y: auto;
+    margin-top: 200px;
+    margin-bottom: -400px;
+    margin-top: 300px;
+    margin-left: -33px;
+    border-radius: 40px  #c1b1b1;
+    box-shadow: 0 0 10px rgba(90, 86, 86, 0.1); 
+}
+.vertical-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+.vertical-bar ul li {
+    margin-bottom: 5px;
+}
+.vertical-bar ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+.vertical-bar ul li a:hover {
+   text-decoration: underline;
+    color: white;
+    padding: 2px;
+    font-weight: bolder;
+}
+/*dark*/
+body[data-theme="light"] {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Styles pour le thème dark */
+body[data-theme="dark"] {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    
+}
+.themebttn {
+    background-color: #eeeeee;
+    color: #000000;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 50px;
+    width: 80px;
+}
+
+/* Styles pour le bouton de changement de thème en mode sombre */
+body[data-theme="dark"] .themebttn {
+    background-color: #333333;
+    color: #ffffff;
+}
+.container{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+   padding: 0px;
+    font-size: 15px;
+    overflow-y: scroll;
+    background-color: #333333;
+  }
+.left{
+    text-align: right;
+}
+.left img{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+  #chapitre1{
+    background-image: url(img1.jpg); 
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir toute la zone */
+  background-repeat: no-repeat; /* Empêche la répétition de l'image */
+  width: 100%;
+  }
+  .content1{
+    width: 800px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white ;
+   background-color: #0f0f0f;
+}
+
+
+.right{
+    text-align: left;
+}
+.right img{
+    float: right;
+}
+.content2{
+    background-color: #eeeeee;
+    background-color: rgb(26, 25, 24);
+    width: 600px;
+    width: 800px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: "DejaVu Sans", sans-serif;
+    margin-bottom: -65px;
+    color: #eeeeee;
+   
+}
+#chapitre2{
+    background-color: #000000;
+}
+#img2{
+    width: 300px;
+    height: 300px;
+}
+h1{
+    color: #ffffff;
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#chapitre3{
+    background-image: url(ubuntu.png);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+   width: 100%;
+   align-items: center;
+}
+.content3{
+    background-color: burlywood;
+    width: 800px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: -5px;
+   
+}
+#animatedButton{
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+}
+button .media{
+    border-radius: 5px;
+    display: inline;
+    padding: 5em;
+    background: rgb(166, 100, 100);
+    border: 1px solid black;
+    box-shadow: 0 0 3px black;
+    margin-bottom: 200px;
+    background-image: url(ubuntu.webp);
+    width: 100px;
+    height: 100px;
+    margin-bottom: 90px;
+    margin-right: 300px;
+}
+
+button a{
+    color: black;
+}
+
+button:hover{
+    background: lightgrey;
+}
+.content3 img{
+    margin-left: -300px;
+}
+
+/* Styles pour le bouton animé dans la div .content3 */
+.content3 #animatedButton {
+   
+    
+    transform: translate(-50%, -50%);
+    animation: moveButton 3s infinite alternate;
+  }
+  
+  @keyframes moveButton {
+    from {
+      transform: translate(-50%, -50%) scale(1);
+    }
+    to {
+      transform: translate(-50%, -50%) scale(1.2);
+    }
+  }
+#chapitre4{
+    background-image: url(kal.webp);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+   width: 100%;
+   align-items: center;
+}
+.content4{
+    background-color: rgb(236, 227, 215);
+    width: 800px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-right: 100px;
+    margin-bottom: -5px;
+    font-family: "DejaVu Sans", sans-serif;
+   
+}
+#chapitre5{
+    background-image: url(im.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+   width: 100%;
+   align-items: center;
+   
+}
+.content5{
+    background-color: rgb(236, 227, 215);
+    width: 800px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    font-family: "DejaVu Sans", sans-serif;
+   
+}
+.content5 img{
+ width: 200px;
+ height: 200px;
+}
+.content5 .right img{
+    margin-top: -100px;
+}
+#chapitre6{
+    background-image: url(Redhate.png);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+   width: 100%;
+   align-items: center;
+}
+.content6{
+    background-color: rgb(236, 227, 215);
+    width: 800px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: -50px;
+    font-family: "DejaVu Sans", sans-serif;
+   
+}
+
+/* style quiz */
+.quiz-container {
+  
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(146, 81, 211);
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-top: -20px;
+    
+              
+  }
+  
+  .question {
+    margin-bottom: 30px;
+  }
+  
+  .question h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff9a42;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  
+  label:hover {
+    background-color: #6c42ff;
+    color: #fff;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  #submit {
+    padding: 12px 20px;
+    background-color: #6c42ff;
+    color: #151414;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #submit:hover {
+    background-color: #522da8;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  #scored {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  #quizButton {
+    width: 180px;
+    height: 80px;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    background-color: orangered;
+    color: #0f0f0f;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+    animation: moveButton 2s infinite alternate; 
+    margin-top: -10px;
+    float: left;
+    margin-left: -50px;
+   
+    
+  }
+  .quiiz{
+    background-color: rgb(230, 179, 161);
+  }
+  
+  @keyframes moveButton {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(20px); 
+  }
+}
+img {
+    transition: transform 0.3s ease;
+}
+
+/* Applique l'animation quand la souris survole l'image */
+img:hover {
+    transform: scale(1.1);
+}
