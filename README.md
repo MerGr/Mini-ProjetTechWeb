@@ -17,8 +17,8 @@ There are also two live versions :
 
 Github Pages version : https://mergr.github.io/ProjectKronoOS/
 
-Self-hosted* version : https://www.mergrr.duckdns.org/kronoos/
+Self-hosted* version : https://kronoos.mergrr.duckdns.org/
 
 
 
-\* *Self-hosted on an Oracle OCI x86 Micro VPS instance with 1x AMD EPYC x86 vCPU core and 1GB of RAM that is already used for other services, expect slow loading on first visit, just let the website load and build cache. The domain is a Dynamic DNS which can be blocked by certain firewalls (like FSSM's Fortinet), nothing I can do about it that costs 0<insert currency here\>*  ¯\_(ツ)_/¯
+\* *Self-hosted on an Oracle OCI ALways-Free ARM64 VPS instance with 4x AMPERE NeoVerse N1 ARM64 vCPU cores and 24GB of RAM that is already used for other services, expect slow loading on first visit, just let the website load and build cache. The domain is a Dynamic DNS which can be blocked by certain firewalls (like FSSM's Fortinet), nothing I can do about it that costs 0 <insert currency here\>*  ¯\\_(ツ)_/¯
