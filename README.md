@@ -17,7 +17,7 @@ There are also two live versions :
 
 Github Pages version : https://mergr.github.io/ProjectKronoOS/
 
-Self-hosted* version : https://kronoos.mergrr.duckdns.org/
+Self-hosted* version : https://mergrweb.mooo.com/kronoos/
 
 
 
